@@ -1,0 +1,1071 @@
+Generation 1
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   1   0   1
+Ind 3      1   1   1   1   0
+Ind 4      1   1   1   1   0
+Ind 5      1   1   1   1   0
+Ind 6      1   1   1   1   0
+Ind 7      1   1   1   1   0
+Ind 8      1   1   1   1   0
+Ind 9      1   1   1   1   0
+Ind 10     1   1   1   0   0
+Voting     0   0   0   0   1
+Generation 2
+          I1  I2  N1  N2  N3
+Ind 1      1   1   1   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   1   0   1
+Ind 7      1   1   1   0   1
+Ind 8      1   1   1   0   0
+Ind 9      1   1   1   1   0
+Ind 10     1   1   1   1   0
+Voting     0   0   1   1   1
+Generation 3
+          I1  I2  N1  N2  N3
+Ind 1      1   1   1   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   1   0   1
+Ind 4      1   1   0   0   0
+Ind 5      1   1   1   0   0
+Ind 6      1   1   1   1   1
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 4
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   1   0   0
+Ind 3      1   1   1   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   1   0   1
+Ind 8      1   1   1   0   1
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 5
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   1   0   0
+Ind 5      1   1   1   0   0
+Ind 6      1   1   1   0   0
+Ind 7      1   1   1   0   0
+Ind 8      1   1   1   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 6
+          I1  I2  N1  N2  N3
+Ind 1      1   1   1   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 7
+          I1  I2  N1  N2  N3
+Ind 1      1   1   1   0   1
+Ind 2      1   1   1   0   0
+Ind 3      1   1   1   0   0
+Ind 4      1   1   1   0   0
+Ind 5      1   1   1   0   0
+Ind 6      1   1   1   0   0
+Ind 7      1   1   1   0   0
+Ind 8      1   1   1   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   0   1   1
+Generation 8
+          I1  I2  N1  N2  N3
+Ind 1      1   1   1   0   1
+Ind 2      1   1   1   0   0
+Ind 3      1   1   1   0   0
+Ind 4      1   1   1   0   0
+Ind 5      1   1   1   0   0
+Ind 6      1   1   1   0   0
+Ind 7      1   1   1   0   0
+Ind 8      1   1   1   0   0
+Ind 9      1   1   1   0   0
+Ind 10     1   1   1   0   0
+Voting     0   0   0   1   1
+Generation 9
+          I1  I2  N1  N2  N3
+Ind 1      1   1   1   0   1
+Ind 2      1   1   1   0   1
+Ind 3      1   1   1   0   1
+Ind 4      1   1   0   1   0
+Ind 5      1   1   1   0   0
+Ind 6      1   1   1   0   0
+Ind 7      1   1   1   0   0
+Ind 8      1   1   1   0   0
+Ind 9      1   1   1   0   0
+Ind 10     1   1   1   0   0
+Voting     0   0   0   1   1
+Generation 10
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   1   0   1
+Ind 3      1   1   1   0   1
+Ind 4      1   1   1   0   1
+Ind 5      1   1   1   0   1
+Ind 6      1   1   1   0   1
+Ind 7      1   1   1   0   1
+Ind 8      1   1   1   0   1
+Ind 9      1   1   1   0   1
+Ind 10     1   1   1   0   1
+Voting     0   0   0   1   0
+Generation 11
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   0   1
+Ind 6      1   1   1   0   1
+Ind 7      1   1   1   0   1
+Ind 8      1   1   1   0   1
+Ind 9      1   1   1   0   1
+Ind 10     1   1   1   0   1
+Voting     0   0   1   1   1
+Generation 12
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 13
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 14
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 15
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   1   1
+Generation 16
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 17
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 18
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 19
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 20
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 21
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 22
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 23
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 24
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 25
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 26
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 27
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 28
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 29
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 30
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 31
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 32
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 33
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 34
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 35
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 36
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 37
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 38
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 39
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 40
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 41
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   1   1
+Ind 3      1   1   1   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 42
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   1   1
+Ind 8      1   1   0   1   1
+Ind 9      1   1   0   1   1
+Ind 10     1   1   1   0   1
+Voting     0   0   1   1   0
+Generation 43
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   1   0
+Voting     0   0   1   1   0
+Generation 44
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 45
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 46
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 47
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 48
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   1   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 49
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   1   1
+Ind 4      1   1   0   1   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 50
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   1   1
+Ind 6      1   1   0   1   1
+Ind 7      1   1   0   1   1
+Ind 8      1   1   0   1   1
+Ind 9      1   1   0   1   1
+Ind 10     1   1   0   1   1
+Voting     0   0   1   1   1
+Generation 51
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 52
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   1
+Ind 2      1   1   1   1   1
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+Generation 53
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   1
+Ind 2      1   1   0   1   1
+Ind 3      1   1   0   1   1
+Ind 4      1   1   0   1   1
+Ind 5      1   1   0   1   1
+Ind 6      1   1   0   1   1
+Ind 7      1   1   0   1   1
+Ind 8      1   1   0   1   1
+Ind 9      1   1   0   1   1
+Ind 10     1   1   1   1   1
+Voting     0   0   1   0   0
+Generation 54
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   1
+Ind 3      1   1   0   1   1
+Ind 4      1   1   0   1   1
+Ind 5      1   1   0   1   1
+Ind 6      1   1   0   1   1
+Ind 7      1   1   0   1   1
+Ind 8      1   1   0   1   1
+Ind 9      1   1   0   1   1
+Ind 10     1   1   0   1   1
+Voting     0   0   1   0   0
+Generation 55
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   1
+Ind 5      1   1   0   1   1
+Ind 6      1   1   0   1   1
+Ind 7      1   1   0   1   1
+Ind 8      1   1   0   1   1
+Ind 9      1   1   0   1   1
+Ind 10     1   1   0   1   1
+Voting     0   0   1   0   0
+Generation 56
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   1   0   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   1
+Ind 7      1   1   0   1   1
+Ind 8      1   1   0   1   1
+Ind 9      1   1   0   1   1
+Ind 10     1   1   0   1   1
+Voting     0   0   1   0   1
+Generation 57
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   1   0   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   1   0   0
+Ind 8      1   1   1   0   0
+Ind 9      1   1   1   0   0
+Ind 10     1   1   1   0   0
+Voting     0   0   1   1   1
+Generation 58
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   1   0   0
+Ind 10     1   1   1   0   0
+Voting     0   0   1   1   1
+Generation 59
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 60
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   1   1
+Generation 61
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 62
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 63
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 64
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 65
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 66
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 67
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 68
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 69
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 70
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 71
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 72
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 73
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 74
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 75
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 76
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 77
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   0
+Ind 2      1   1   0   1   0
+Ind 3      1   1   0   1   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 78
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   1   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   0   1   0
+Ind 10     1   1   0   1   0
+Voting     0   0   1   0   1
+Generation 79
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   1   0
+Ind 6      1   1   0   1   0
+Ind 7      1   1   0   1   0
+Ind 8      1   1   0   1   0
+Ind 9      1   1   1   0   0
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   1
+Generation 80
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1
+
+============================================================
+Summary Tables (for key generations)
+============================================================
+
+Generation 40 (mid-generation)
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   1   1
+Ind 2      1   1   0   0   1
+Ind 3      1   1   0   0   1
+Ind 4      1   1   0   0   1
+Ind 5      1   1   0   0   1
+Ind 6      1   1   0   0   1
+Ind 7      1   1   0   0   1
+Ind 8      1   1   0   0   1
+Ind 9      1   1   0   0   1
+Ind 10     1   1   0   0   1
+Voting     0   0   1   1   0
+Generation 80 (last-generation)
+          I1  I2  N1  N2  N3
+Ind 1      1   1   0   0   0
+Ind 2      1   1   0   0   0
+Ind 3      1   1   0   0   0
+Ind 4      1   1   0   0   0
+Ind 5      1   1   0   0   0
+Ind 6      1   1   0   0   0
+Ind 7      1   1   0   0   0
+Ind 8      1   1   0   0   0
+Ind 9      1   1   0   0   0
+Ind 10     1   1   0   0   0
+Voting     0   0   1   1   1

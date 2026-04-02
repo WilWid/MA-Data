@@ -1,0 +1,3 @@
+Aggregated Inverted Voting Rows (average across files)
+Mid-generation:  0.00  0.00  0.00  0.00  0.00
+Last-generation: 0.00  0.00  0.00  0.00  0.00
