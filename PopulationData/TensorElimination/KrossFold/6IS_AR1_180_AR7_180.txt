@@ -1,0 +1,82 @@
+AR1_180 no regularization results --> AR7_180
+Worklflow:
+1. Find expression that need to be evaluated
+2. Go into eval_template folder system
+3. Make sure eval_model.py points to the correct case
+4. Insert the expression in input_template
+
+AR7_180 with "Boussinesq" --> Loss: 4.03733e-07
+AR7_180 NoReg average (for normalization) --> Loss: 
+
+Seed: 0
+Expressions: 
+-,+,+,I2,N1,I2,N2
+-,-,N2,0.430,N1
++,+,I2,-,I2,*,-,0.0,0.430,N2,+,+,-,I1,-1.0,0.097,-,N3,-1.0
+Loss: 8.2088e-07
+
+Seed: 1
+Expressions: 
+*,-,-,-,I1,-,N3,0.0,I2,N1,-0.39
+-,-,I1,0,N1
+*,*,0,0,0
+Loss: 3.93608e-07
+
+Seed: 2
+Expressions: 
+*,+,0,0,0
+*,-,+,+,-,N1,0.0,-,N1,N3,2.0,+,N2,I1,+,-,+,-1.0,-1.0,+,N1,2.0,+,0,0
+-,+,0,0,0
+Loss: 1.55412e-06
+
+Seed: 3
+Expressions: 
+-,+,+,*,N3,N1,I2,0,N2
++,*,0,0,0
+-,-,+,2.0,N1,-,+,I1,-1.0,+,N1,I2,I1
+Loss: 6.7993e-07
+
+Seed: 4
+Expressions: 
+*,+,+,+,+,0.429,N2,I2,+,I1,I2,*,-,-,N1,N3,I1,I1,+,N1,-,N2,1.0
+-,+,0.094,-,I1,2.0,0.0
+-,+,0.945,*,N2,+,I1,*,N1,N1,-,N1,0.094
+Loss: 6.97185e-07
+
+Seed: 5
+Expressions: 
+-,*,1.0,+,*,*,N1,I1,2.0,N2,+,-,-,0.837,0.837,-0.55,-1.0
+*,*,0,0,0
+*,+,0,0,0
+Loss: 4.01657e-07
+
+Seed: 6
+Expressions: 
+-,-,*,N1,+,N1,+,-0.33,I2,-,2.0,N1,-,+,*,-1.0,I2,*,I2,-1.0,*,N1,N1
++,-,N1,N2,-,*,1.0,-,-0.91,0.0,N3
++,-,0,0,0
+Loss: 7.70553e-07
+
+Seed: 7
+Expressions: 
++,+,-,I2,-0.84,+,-,+,I2,I2,N3,N3,0
+-,*,0,0,0
+-,-,N2,*,-,I1,N1,-,N1,-1.0,N3
+Loss: 3.04466e-07
+
+Seed: 8
+Expressions: 
++,*,*,*,*,N2,0.937,N2,*,1.0,-1.0,-,*,-,N3,0.738,1.0,+,N3,0.061,-,*,N1,N1,N2
+-,*,-,N1,N3,0,-,-,*,N2,1.0,+,0.738,-1.0,*,N1,I2
+*,*,0,0,0
+Loss: 4.76076e-07
+
+Seed: 9
+Expressions: 
+-,-,N3,+,+,1.0,*,N3,I1,*,2.0,I1,-0.73
++,+,*,2.0,-,I1,-,N2,N1,*,-0.73,I1,N1
+*,+,0,0,0
+Loss: 7.55039e-07
+
+Average GEP Loss: 6.853514e-07
+Standard Deviation of Loss: 3.376209e-07

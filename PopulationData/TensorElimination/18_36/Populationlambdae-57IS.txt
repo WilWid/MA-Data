@@ -1,0 +1,186 @@
+Seed: 0 
+Individual: 00227 --> fail
+Loss: 5.23044e-06, 1.43553e-06 (+ 3*5e-7 regularization)
+Used Tensors: V1, V2, V3
+First pruning: V1 at GEN9
+Second pruning: V2 at GEN9
+Expressions:
++,-,I2,I2,I1
+-,-,+,*,-1.0,-1.0,I2,*,+,+,N2,-1.0,1.0,I1,0
+*,+,I2,-,-,N3,+,0.089,2.0,-,N2,I2,N1
+CFD-Evals: 
+Comment: 
+
+Seed: 1
+Individual: 00665/00227
+Loss: 5.18375e-06, 1.11406e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN7
+Second pruning: V3 at GEN15
+Expressions:
+*,*,0,0,0
+*,*,-,N3,-1.0,N2,2.0
+*,*,0,0,0
+CFD-Evals: 568/1936
+Comment: 
+
+Seed: 2
+Individual: 00928
+Loss: 5.12567e-06, 1.17472e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN6
+Second pruning: V3 at GEN25
+Expressions:
++,-,0,0,0
+-,*,+,+,-0.12,-,I1,I1,I1,+,N1,-,*,N2,-1.0,N1,-,-,I1,N3,N1
+*,*,0,0,0
+CFD-Evals: 792/2318
+Comment: 
+
+Seed: 3
+Individual: 01051
+Loss: 2.54408e-06, 3.50586e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN10
+Second pruning: V3 at GEN31
+Expressions:
++,+,0,0,0
+*,-,*,+,-,2.0,0.0,1.0,I1,*,+,*,1.0,N1,N3,+,N1,N1,+,2.0,N1
+-,*,0,0,0
+CFD-Evals: 1107/2224
+Comment: 
+
+Seed: 4 (--> fail)
+Individual: 00197
+Loss: 5.24529e-06, 1.13214e-06 (+ 1*5e-7 regularization)
+Used Tensors: V3
+First pruning: V1 at GEN10
+Second pruning: V2 at GEN11
+Expressions:
+*,*,0,0,0
+-,+,0,0,0
+-,-,-,+,N3,I1,N3,0.945,+,*,N2,+,0.094,1.0,2.0
+CFD-Evals: 
+Comment: 
+
+Seed: 5
+Individual: 00827
+Loss: 5.11039e-06, 9.92008e-07 (+ 2*5e-7 regularization)
+Used Tensors: V2, V3
+First pruning: V1 at GEN5
+Second pruning: -
+Expressions:
+*,-,0,0,0
++,-,-,N2,+,-,-1.0,-0.58,-,I1,1.0,-,N2,+,-,0.741,-0.55,-,1.0,I1,-0.58
+*,+,0.837,+,+,N1,I2,I1,N3
+CFD-Evals: 1026/2168
+Comment: 
+
+Seed: 6
+Individual: 00252
+Loss: 1.07375e-06, 5.15441e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN9
+Second pruning: V3 at GEN9
+Expressions:
+*,*,0,0,0
++,+,-,N1,-,N3,I1,N2,+,1.0,N2
+*,+,0,0,0
+CFD-Evals: 540/1612
+Comment: 
+
+Seed: 7
+Individual: 00660
+Loss: 5.18835e-06, 9.34694e-07 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN16
+Second pruning: V3 at GEN9
+Expressions:
++,*,0,0,0
+-,+,-,I2,+,*,0.446,I1,N1,+,-,N3,I1,N3,-,*,-,-0.12,-1.0,*,I2,0.559,N3
+*,+,0,0,0
+CFD-Evals: 915/1986
+Comment: 
+
+Seed: 8
+Individual: 00293
+Loss: 5.1866e-06, 9.77691e-07 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN15
+Second pruning: V3 at GEN15
+Expressions:
+*,*,0,0,0
++,-,-,N1,+,N1,N1,-1.0,2.0
++,-,0,0,0
+CFD-Evals: 934/1726
+Comment: 
+
+Seed: 9
+Individual: 00900
+Loss: 5.15746e-06, 1.04919e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN6
+Second pruning: V3 at GEN13
+Expressions:
+-,-,0,0,0
++,*,*,-,I1,*,-0.97,0.0,*,0.0,N2,N3,+,0.003,2.0
+-,+,0,0,0
+CFD-Evals: 586/2230
+Comment: 
+
+Seed: 10
+Individual: 00636
+Loss: 5.1329e-06, 1.01018e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN4
+Second pruning: V3 at GEN6
+Expressions:
+*,+,0,0,0
++,-,+,0,I2,*,+,0.0,-1.0,-,2.0,0.497,N2
++,*,0,0,0
+CFD-Evals: 783/1544
+Comment: 
+
+Seed: 11
+Individual: 00808
+Loss: 5.17791e-06, 1.13021e-06 (+ 1*5e-7 regularization)
+Used Tensors: V2
+First pruning: V1 at GEN9
+Second pruning: V3 at GEN38
+Expressions:
+-,*,0,0,0
+-,*,N2,+,+,N3,N3,+,N3,2.0,N2
++,-,0,0,0
+CFD-Evals: 1199/2026
+Comment: 
+
+Seed: 12
+Individual: 00973
+Loss: 1.9231e-06, 3.00316e-06 (+ 2*5e-7 regularization)
+Used Tensors: V1, V2
+First pruning: V3 at GEN11
+Second pruning: 
+Expressions:
+*,+,*,I1,0.0,-,N2,+,N3,I1,-,N2,+,*,I1,I1,N1
+-,+,-,-1.0,I2,+,-1.0,I2,*,N3,+,-,N1,I2,N3
++,+,0,0,0
+CFD-Evals: 1449/2082
+Comment: 
+
+Feature Importance Order: V1 = 1, V2 = 11, V3 = 1
+
+Average GEP Loss1: 4.25491e-06
+Average GEP Loss2: 1.82238e-06
+Average GEP Loss1_2: 6.07729e-06
+Average CFD-Evals: 899.909
+Average Number of Tensors: 1.181818
+Average 1st pruning: 8.27273
+Average 2nd pruning: 24.3636
+Standard Deviation of Loss: 3.73122e-07
+Standard deviation of CFD-Evals: 272.143
+Standard Deviation of Tensors: 0.385695
+Standard Deviation of 1st pruning: 2.98758
+Standard Deviation of 2nd pruning: 15.053
+
+If no 2nd pruning, then set to 50!
+

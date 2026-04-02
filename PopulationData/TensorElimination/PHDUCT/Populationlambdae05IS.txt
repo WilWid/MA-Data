@@ -1,0 +1,173 @@
+Seed: 0 
+Individual: 00609
+Loss: 0.805199, 3.69337 (+ 2*0.5 regularization)
+Used Tensors: V1, V2
+First pruning: V3 at GEN17
+Second pruning: -
+Expressions:
+-,+,N3,-1.0,+,I1,*,*,0.097,2.0,N1
++,+,N3,-,N3,-1.0,I2
+*,*,0,0,0
+CFD-Evals: 1627/1926
+Comment: 
+
+Seed: 1 
+Individual: 01000
+Loss: 1.08299, 7.79931 (+ 1*0.5 regularization)
+Used Tensors: V3
+First pruning: V2 at GEN36
+Second pruning: V3 at GEN37
+Expressions:
++,*,0,0,0
+*,*,0,0,0
+-,-,-,N1,0.0,+,1.0,*,1.0,+,N2,2.0,N3
+CFD-Evals: 1876/2050
+Comment: 
+
+Seed: 2
+Individual: 00645
+Loss: 0.971476, 7.84799 (+ 1*0.5 regularization)
+Used Tensors: V2
+First pruning: V3 at GEN18
+Second pruning: V1 at GEN19
+Expressions:
++,-,0,0,0
++,+,N2,N3,+,N2,+,0.0,*,0.099,1.0
++,*,0,0,0
+CFD-Evals: 1276/1326
+Comment: 
+
+Seed: 3
+Individual: 00619
+Loss: 6.35515, 3.46028 (+ 1*0.5 regularization)
+Used Tensors: V1
+First pruning: V3 at GEN22
+Second pruning: V2 at GEN28
+Expressions:
++,*,-,-,-1.0,-,N1,1.0,-0.41,-,I2,*,-,0.416,I2,*,-1.0,1.0,+,I2,0.0
++,*,0,0,0
++,+,0,0,+,0,0
+CFD-Evals: 1270/1920
+Comment: 
+
+Seed: 4 
+Individual: 00632
+Loss: 1.05333, 7.79946 (+ 1*0.5 regularization)
+Used Tensors: V3
+First pruning: V1 at GEN26
+Second pruning: V2 at GEN26
+Expressions:
+*,-,0,0,0
++,*,0,0,0
+*,-,-,-,*,1.0,0.0,N3,-,0.945,N1,I1,+,+,N2,N3,2.0
+CFD-Evals: 1442/1866
+Comment: 
+
+Seed: 5
+Individual: 00946
+Loss: 1.0744, 3.58925 (+ 2*0.5 regularization)
+Used Tensors: V1, V3
+First pruning: V2 at GEN28
+Second pruning: 
+Expressions:
+*,-,-1.0,+,0.0,+,+,1.0,0.837,+,1.0,N3,I1
+*,*,0,0,0
++,-,-1.0,0,*,+,-,-0.58,0.837,-,-1.0,2.0,0.837
+CFD-Evals: 1953/2278
+Comment: 
+
+Seed: 6
+Individual: 00925
+Loss: 1.01808, 7.55779 (+ 1*0.5 regularization)
+Used Tensors: V2
+First pruning: V3 at GEN19
+Second pruning: V1 at GEN32
+Expressions:
+-,-,0,0,0
++,+,-,N2,I1,2.0,*,N2,-1.0
+-,+,0,0,0
+CFD-Evals: 1483/1998
+Comment: 
+
+Seed: 7
+Individual: 00582
+Loss: 0.99627, 7.57983 (+ 1*0.5 regularization)
+Used Tensors: V2
+First pruning: V3 at GEN7
+Second pruning: V1 at GEN24
+Expressions:
+*,*,0,0,0
+-,+,+,+,*,0.0,1.0,N1,-,1.0,N1,+,I1,1.0,*,*,+,N2,I2,-,0.559,N1,-0.84
++,*,0,0,0
+CFD-Evals: 1260/2004
+Comment: 
+
+Seed: 8
+Individual: 00781
+Loss: 1.017, 7.54413 (+ 1*0.5 regularization)
+Used Tensors: V2
+First pruning: V3 at GEN9
+Second pruning: V1 at GEN25
+Expressions:
+*,*,0,0,0
++,+,*,I2,*,N1,I1,N3,0.937
++,-,0,0,0
+CFD-Evals: 1191/1760
+Comment: 
+
+Seed: 9
+Individual: 00765
+Loss: 0.697096, 3.78375 (+ 2*0.5 regularization)
+Used Tensors: V1, V2
+First pruning: V3 at GEN15
+Second pruning: 
+Expressions:
+-,+,I2,*,-,N2,N3,N2,*,I1,+,-,1.0,0.0,N1
++,+,I2,I2,-,+,+,0.0,1.0,*,N2,0.0,-,-1.0,2.0
+*,-,0,0,0
+CFD-Evals: 1568/1798
+Comment: 
+
+Seed: 10
+Individual: 00220
+Loss: 0.91012, 7.55532 (+ 1*0.5 regularization)
+Used Tensors: V2
+First pruning: V3 at GEN8
+Second pruning: V9 at GEN9
+Expressions:
++,*,0,0,0
+-,-,*,+,*,I1,N2,*,2.0,1.0,+,0.542,N3,-,N2,-,1.0,N1,+,+,+,I2,I2,-,0.267,0.497,N3
+*,-,0,0,0
+CFD-Evals: 537/1610
+Comment: 
+
+Seed: 11
+Individual: 00769
+Loss: 6.26863, 3.09146 (+ 1*0.5 regularization)
+Used Tensors: V1
+First pruning: V3 at GEN18
+Second pruning: V2 at GEN34
+Expressions:
+-,*,*,-,-,1.0,-0.63,N3,N2,*,-0.63,-,-,N1,I2,I1,I2
+*,-,0,0,0
++,-,0,0,0
+CFD-Evals: 1446/1828
+Comment: 
+
+Feature Importance Order: V1 = 5, V2 = 7, V3 = 3
+
+Average GEP Loss1: 1.85415
+Average GEP Loss2: 5.94185
+Average GEP Loss1_2: 7.752
+Average CFD-Evals: 1410.75
+Average Number of Tensors: 1.25
+Average 1st pruning: 18.5833
+Average 2nd pruning: 32.0
+Standard Deviation of Loss: 2.001
+Standard deviation of CFD-Evals: 349.028
+Standard Deviation of Inputs: 0.433013
+Standard Deviation of 1st pruning: 8.23062
+Standard Deviation of 2nd pruning: 12.463
+
+If no 2nd pruning, then set to 50!
+

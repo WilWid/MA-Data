@@ -1,0 +1,123 @@
+Seed: 0
+Individual: 00600
+Loss: 1.16826, 7.51492 (+ 1*2 regularization)
+Used Tensors: V2
+Expressions: 
++,*,0,0,0
+-,+,N1,N2,-,+,N2,-1.0,0.0
+-,-,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 1
+Individual: 00218
+Loss: 1.06366, 7.49089 (+ 1*2 regularization)
+Used Tensors: V2
+Expressions: 
++,*,0,0,0
+*,-,-,N3,-1.0,+,-0.39,+,I2,-,N2,I1,N3
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 2
+Individual: 00667
+Loss: 1.01808, 7.558 (+ 1*2 regularization)
+Used Tensors: V2
+Expressions: 
+*,+,0,0,0
+-,+,-,N2,-,-,-0.12,-0.12,-,2.0,I1,I1,+,N2,I1
++,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 3
+Individual: 00599
+Loss: 0.88493, 3.67477 (+ 2*2 regularization)
+Used Tensors: V1, V3
+Expressions: 
+*,-,0,-,N3,-,-1.0,-,N1,0.416,0.101
++,-,0,0,0
+-,-,+,+,-,I2,2.0,-,N1,0.416,-,-0.41,I2,*,I2,-1.0,+,+,1.0,+,N3,N1,-,-0.41,-0.41
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 4
+Individual: 00673
+Loss: 6.27656, 3.03584 (+ 1*2 regularization)
+Used Tensors: V1
+Expressions: 
+*,+,I2,N2,*,*,-,I1,1.0,*,N1,N1,0.429
++,-,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 5
+Individual: 00914
+Loss: 1.22738, 3.52086 (+ 2*2 regularization)
+Used Tensors: V1, V3
+Expressions: 
+*,-,-1.0,+,N1,+,+,0.741,0.837,+,N1,N1,I1
+*,*,0,0,0
+-,*,+,+,N3,2.0,N3,+,*,*,N1,N2,-,I1,N1,*,0.837,-0.58,0.837
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 6
+Individual: 00723
+Loss: 0.90301, 3.73972 (+ 2*2 regularization)
+Used Tensors: V1, V2
+Expressions: 
+-,*,I1,-,-,-1.0,0.0,N2,*,*,+,-1.0,0.785,-,I1,0.785,N2
++,+,N2,0,2.0
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 7
+Individual: 00326
+Loss: 1.16826, 7.51505 (+ 1*2 regularization)
+Used Tensors: V2
+Expressions: 
+-,+,0,0,0
+-,-,N1,-1.0,0
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: V2 does not help PH --> only slightly better than Boussinesq and then not with tensor invariant because it does not help but with Reynolds number.
+
+Seed: 8
+Individual: 00234
+Loss: 1.02181, 7.55447 (+ 1*2 regularization)
+Used Tensors: V2
+Expressions: 
+*,*,0,0,0
++,-,+,*,I1,N3,*,1.0,2.0,*,I1,0.738,-,*,0.0,N1,I1
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: Same as above
+
+Seed: 9
+Individual: 00268
+Loss: 1.25505, 7.75091 (+ 1*2 regularization)
+Used Tensors: V3
+Expressions: 
+*,+,0,0,0
+*,*,0,0,0
+-,-,-,-0.00,+,N2,+,1.0,-0.73,-,2.0,N2,-,N3,I2
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: V3 uses strain rate tensor and thus should not be too bad for periodic hill, but still is.
+
+Feature Importance Order: V1 = 4, V2 = 6, V3 = 3
+
+Average GEP Loss1: 1.5987
+Average GEP Loss2: 5.93554
+Average GEP Loss1_2: 7.53424
+Average Number of Tensors: 1.3
+Standard Deviation Loss1: -
+Standard Deviation Loss2: -
+Standard Deviation Loss1_2: 1.901343
+Standard Deviation of Tensors: 0.458258

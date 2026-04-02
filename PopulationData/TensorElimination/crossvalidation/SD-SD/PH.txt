@@ -1,0 +1,85 @@
+18_36 no regularization results --> PH
+Worklflow:
+1. Find expression that need to be evaluated
+2. Go into eval_template folder system
+3. Make sure eval_model.py points to the correct case
+4. Insert the expression in input_template
+
+PH with "Boussinesq" --> Loss: 
+PH NoReg average (for normalization) --> Loss: 
+
+Seed: 0
+Expressions: 
+*,*,0,0,0
+*,*,-,N3,-1.0,N2,2.0
+*,*,0,0,0
+Loss: 0.008000853420850456
+
+Seed: 1
+Expressions: 
++,-,0,0,0
+-,*,+,+,-0.12,-,I1,I1,I1,+,N1,-,*,N2,-1.0,N1,-,-,I1,N3,N1
+*,*,0,0,0
+Loss: 0.007525915140986511
+
+Seed: 2
+Expressions: 
++,+,0,0,0
+*,-,*,+,-,2.0,0.0,1.0,I1,*,+,*,1.0,N1,N3,+,N1,N1,+,2.0,N1
+-,*,0,0,0
+Loss: 0.003400912346670177
+
+Seed: 3
+Expressions: 
+*,-,0,0,0
++,-,-,N2,+,-,-1.0,-0.58,-,I1,1.0,-,N2,+,-,0.741,-0.55,-,1.0,I1,-0.58
+*,+,0.837,+,+,N1,I2,I1,N3
+Loss: 0.007474733515596491
+
+Seed: 4
+Expressions: 
+*,*,0,0,0
++,+,-,N1,-,N3,I1,N2,+,1.0,N2
+*,+,0,0,0
+Loss: 0.007817598727216983
+
+Seed: 5
+Expressions: 
++,*,0,0,0
+-,+,-,I2,+,*,0.446,I1,N1,+,-,N3,I1,N3,-,*,-,-0.12,-1.0,*,I2,0.559,N3
+*,+,0,0,0
+Loss: 0.007568493256365127
+
+Seed: 6
+Expressions: 
+*,*,0,0,0
++,-,-,N1,+,N1,N1,-1.0,2.0
++,-,0,0,0
+Loss: 0.0075803603432143
+
+Seed: 7
+Expressions: 
+-,-,0,0,0
++,*,*,-,I1,*,-0.97,0.0,*,0.0,N2,N3,+,0.003,2.0
+-,+,0,0,0
+Loss: 0.007546944865243246
+
+Seed: 8
+Expressions: 
+*,+,0,0,0
++,-,+,0,I2,*,+,0.0,-1.0,-,2.0,0.497,N2
++,*,0,0,0
+Loss: 0.007692922871341967
+
+Seed: 9
+Expressions: 
+-,*,0,0,0
+-,*,N2,+,+,N3,N3,+,N3,2.0,N2
++,-,0,0,0
+Loss: 0.00798518077782704
+
+
+Average GEP Loss:
+0.0072594
+Standard Deviation of Loss:
+0.0012986
