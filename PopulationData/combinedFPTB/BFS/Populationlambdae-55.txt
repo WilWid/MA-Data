@@ -1,0 +1,274 @@
+Seed: 0
+Individual: 00788
+Loss: 5.0775e-04 (+ eps = 3*5e-5 + mu = 1*5e-5 regularization)
+Used Tensors: V1
+Used Features: I1, I2, N2
+Expressions: 
+*,-,*,-,-,0.0,0.0,-,I1,I2,+,2.0,2.0,*,-,*,-1.0,-1.0,N2,*,0.430,-1.0,1.0
+-,-,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 1
+Individual: 00491
+Loss: 5.88103e-04 (+ eps = 1*5e-5 + mu = 1*5e-5 regularization)
+Used Tensors: V1
+Used Features: N1
+Expressions: 
+*,+,N1,-0.39,-0.39
+-,*,0,0,0
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 2
+Individual: 00935
+Loss: 5.01826e-04 (+ eps = 3*5e-5 + mu = 2*5e-5 regularization)
+Used Tensors: V1, V2
+Used Features: I2, N1, N3
+Expressions: 
+*,*,+,-,+,I2,2.0,*,-1.0,1.0,-,2.0,0.099,-,+,*,N3,-1.0,N1,*,N1,-0.94,I2
+-,+,N1,N3,+,-,*,-0.12,-0.12,-,2.0,I2,N1
++,-,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 3
+Individual: 01010
+Loss: 5.44747e-04 (+ eps = 2*5e-5 + mu = 2*5e-5 regularization)
+Used Tensors: V1, V3
+Used Features: I2, N1
+Expressions: 
+-,*,-,-,-1.0,-,N1,1.0,-0.41,-,I2,*,-,0.416,I2,*,-1.0,1.0,+,I2,+,+,0.021,I2,0.0
+*,-,0,0,0
+*,+,0.021,-,-,+,0.101,0.101,I2,-,0.0,2.0,N1
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 4
+Individual: 00852
+Loss: 5.06694e-04 (+ eps = 2*5e-5 + mu = 2*5e-5 regularization)
+Used Tensors: V1, V3
+Used Features: I2, N2
+Expressions: 
++,*,I2,-1.0,*,*,-,I2,N2,N2,0.429
+*,+,0,0,0
+*,+,I2,-,1.0,I2,N2
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 5
+Individual: 00471
+Loss: 6.02556e-04 (+ eps = 1*5e-5 + mu = 1*5e-5 regularization)
+Used Tensors: V1
+Used Features: N3
+Expressions: 
+-,+,-,0.0,2.0,*,2.0,N3,0.0
++,+,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 6
+Individual: 00440
+Loss: 6.69464e-04 (+ eps = 1*5e-5 + mu = 1*5e-5 regularization)
+Used Tensors: V1
+Used Features: I1
+Expressions: 
+-,*,I1,-,-,-1.0,0.0,+,-0.33,2.0,I1
+*,+,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 7
+Individual: 00651
+Loss: 5.08832e-04 (+ eps = 2*5e-5 + mu = 2*5e-5 regularization)
+Used Tensors: V1, V2
+Used Features: N2, N3
+Expressions: 
+*,*,-1.0,+,N2,-,+,1.0,0.0,N3,-,-1.0,+,-,-0.84,N2,*,0.446,N2
+-,+,N2,-1.0,N2
++,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 8
+Individual: 00789
+Loss: 6.6872e-04 (+ eps = 1*5e-5 + mu = 1*5e-5 regularization)
+Used Tensors: V1
+Used Features: I1
+Expressions: 
+*,-,I1,*,+,2.0,I1,-,0.738,-1.0,I1
++,+,0,0,0
++,+,0,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 9
+Individual: 00766
+Loss: 6.25162e-04 (+ eps = 1*5e-5 + mu = 2*5e-5 regularization)
+Used Tensors: V1, V2
+Used Features: N3
+Expressions: 
+-,*,0,N3,-,*,N3,-0.00,+,-0.97,N3
++,+,-0.97,N3,-,N3,0.0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+==================================================================
+Seed: 10
+Individual: 00389
+Loss: 0.000602560950219741 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: N3
+Expressions: 
++,-,N3,2.0,N3
+*,-,0,0,0
++,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 11
+Individual: 00786
+Loss: 0.0005137432148049234 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: I1, I2, N2
+Expressions: 
+-,*,N2,*,-,-,0.449,-0.07,*,I1,-0.96,-,-0.63,I1,I2
+-,-,0,0,0
++,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 12
+Individual: 00369
+Loss: 0.0006889042976470526 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: None
+Expressions: 
+*,-,-0.69,2.0,0.067
+*,*,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 13
+Individual: 00437
+Loss: 0.000669548959714028 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: I2
+Expressions: 
+*,*,2.0,+,1.0,-,0.648,I2,I2
++,-,0,0,0
+-,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 14
+Individual: 00440
+Loss: 0.0007311368187322295 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V2
+Used Features: N3, N2
+Expressions: 
+*,*,0,0,0
+-,-,+,N3,*,-,-1.0,N2,+,N2,2.0,N3,N2
+-,-,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 15
+Individual: 00990
+Loss: 0.0005892591464147048 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1, V2
+Used Features: I1, I2, N1
+Expressions: 
++,-,+,-,I1,0.0,*,1.0,I1,-0.89,-,+,*,N1,-0.27,+,N1,-0.89,N1
+*,-,+,-,+,I1,-0.27,0.0,-,1.0,N1,+,I2,I2,+,+,N1,I2,-,2.0,-0.27
+-,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 16
+Individual: 00722
+Loss: 0.000524373893695112 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: I1, N2
+Expressions: 
+-,*,0,0,+,+,N2,*,I1,-0.90,*,N2,-0.55
+*,*,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 17
+Individual: 00388
+Loss: 0.000545252887366028 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: I1, N2
+Expressions: 
++,*,N2,-0.41,*,I1,N2
+*,*,0,0,0
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 18
+Individual: 00886
+Loss: 0.0006169807611827697 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1, V3
+Used Features: I1, N3
+Expressions: 
+-,-,*,-,+,1.0,I1,N3,-0.63,I1,*,-,-,0,0,+,0.300,N3,*,N3,0.010
+*,-,0,0,0
++,+,I1,N3,+,2.0,N3
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 19
+Individual: 00734
+Loss: 0.0005391392668214945 (+ eps = *5e-5 + mu = *5e-5 regularization)
+Used Tensors: V1
+Used Features: N2
+Expressions: 
+*,-,+,-1.0,1.0,+,-0.72,+,0.0,-,1.0,0.0,N2
+*,*,0,0,0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Tensor Importance Order: V1 = 19, V2 = 5, V3 = 3
+Feature Importance Order: I1 = 8, I2 = 7, N1 = 4, N2 = 8, N3 = 7
+
+Average GEP Loss: 5.72385e-04
+Average Number of Tensors: 1.5
+Average Number of Inputs: 1.7
+Standard Deviation of Loss: 6.39702e-05
+Standard Deviation of Tensors: 0.5
+Standard Deviation of Inputs: 0.781025
+
+Was ist angreifbar?
+Wo sind die Bilder für multicase? --> Appendix
+Wo sind die Daten? --> github
+Welches Paper beschreibt welche feature wichtig sind? --> Max

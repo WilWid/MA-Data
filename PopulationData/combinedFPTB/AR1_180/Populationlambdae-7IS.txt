@@ -1,0 +1,171 @@
+Seed: 0
+Individual: 00738
+Loss: 1.96156e-06 (+ eps = 4e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I2, N1, N2, N3
+First Input pruning: I1 at GEN5
+First Tensor pruning: -
+Expressions:
+-,+,+,I2,+,*,1.0,1.0,+,N2,0.205,I2,N3
++,*,N2,0.430,N1
+-,-,-,*,+,0.089,I2,0.0,I2,*,N3,N2,+,N2,N1
+CFD-Evals: 667/772
+Comment: 
+
+Seed: 1
+Individual: 00561
+Loss: 1.78459e-06 (+ eps = 2e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: I1, N1, N2
+First Input pruning: I2 at GEN17
+Second Input pruning: N3 at GEN18
+First Tensor pruning: V3 at GEN9
+Expressions:
++,+,+,-,+,N2,N1,-0.39,*,1.0,-0.39,I1,-0.99
+-,+,-0.39,I1,2.0
+-,*,0,0,0
+CFD-Evals: 595
+Comment: 
+
+Seed: 2
+Individual: 00667
+Loss: 1.88891e-06 (+ eps = 3e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: N1, N2, N3
+First pruning: I2 at GEN8
+Second pruning: I1 at GEN12
+First Tensor pruning: - 
+Expressions:
+-,+,-,N1,N2,0.0,-0.12
+*,+,N2,N3,N2
+-,*,N1,+,-0.12,N2,+,N3,+,N2,N2
+CFD-Evals: 629
+Comment: 
+
+Seed: 3
+Individual: 01037
+Loss: 1.50796e-06 (+ eps = 4e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: I2, N1, N2, N3
+First Input pruning: I1 at GEN34
+First Tensor pruning: V3 at GEN28 
+Expressions:
++,*,+,*,+,-1.0,I2,+,N2,0.021,N3,N3,*,I2,-,+,2.0,N1,-,0.021,1.0
+*,-,I2,*,+,*,1.0,1.0,N1,+,N1,N1,N3
+*,*,0,0,0
+CFD-Evals: 956
+Comment: 
+
+Seed: 4
+Individual: 00314
+Loss: 1.76171e-06 (+ eps = 2e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: N1, N2
+First pruning: N3 at GEN3
+Second pruning: I2 at GEN15
+Third pruning: I1 at GEN16
+First Tensor Pruning: -
+Expressions:
++,*,N1,N2,0.0
++,-,-1.0,N1,0.0
+-,*,2.0,N1,N2
+CFD-Evals: 430
+Comment: 
+
+Seed: 5
+Individual: 00886
+Loss: 1.72615e-06 (+ eps = 2e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V3
+Used Inputs: N1, N3
+First pruning: N2 at GEN26
+Second pruning: I1 at GEN31
+Third pruning: I2 at GEN44
+First Tensor Pruning: V2 at GEN26
+Expressions:
+-,+,+,-0.55,N1,*,N1,N1,N3
+*,*,0,0,0
++,+,+,+,+,N1,2.0,-0.58,N1,N3,N3
+CFD-Evals: 758
+Comment: 
+
+Seed: 6
+Individual: 00823
+Loss: 1.24749e-06 (+ eps = 3e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: I2, N1, N2, N3
+First pruning: I1 GEN23
+Second pruning: -
+Third pruning: -
+First Tensor Pruning: V3 at GEN8
+Expressions:
+-,-,*,N1,+,N1,+,-0.33,I2,N3,-,+,*,-1.0,I2,*,-1.0,I2,*,N1,N1
++,-,*,N2,I2,N2,-,*,*,-0.33,0.785,N1,0.785
+*,+,0,0,0
+CFD-Evals: 774
+Comment: 
+
+Seed: 7
+Individual: 00923
+Loss: 1.5746e-06 (+ eps = 4e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, N1, N2, N3
+First pruning: I2 at GEN17
+Second pruning: -
+Third pruning: -
+First Tensor Pruning: -
+Expressions:
+-,-,N1,I1,-,N3,*,N2,N3
+-,*,N3,-,+,*,0.559,-0.84,-,-0.12,1.0,*,I1,I1,N1
+-,+,N1,-,+,-,1.0,0.559,*,0.446,-1.0,-,0.559,0.0,+,-,+,I1,1.0,+,N3,-0.12,N2
+CFD-Evals: 974
+Comment: 
+
+Seed: 8
+Individual: 00901
+Loss: 1.47269e-06 (+ eps = 2e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V3
+Used Inputs: I2, N1
+First Input pruning: N2 at GEN22
+Second Input pruning: N3 at GEN23
+Third Input pruning: I1 at GEN31
+First Tensor Pruning: V2 at GEN22
+Expressions:
++,*,0.738,N1,+,-,*,I2,2.0,-1.0,-1.0
+-,*,0,0,0
++,*,2.0,+,N1,*,I2,+,I2,1.0,0
+CFD-Evals: 754
+Comment: 
+
+Seed: 9
+Individual: 00842
+Loss: 1.77853e-06 (+ eps = 3e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, N2, N3
+First pruning: I2 at GEN16
+Second pruning: -
+Third pruning: -
+First Tensor Pruning: -
+Expressions:
+-,-,N3,+,N3,*,1.0,+,I1,I1,-0.73
+*,*,-,+,I1,-,N3,-0.73,I1,-1.0,N1
+-,*,I1,-1.0,N2
+CFD-Evals: 757
+Comment: 
+
+Average GEP Loss: 1.67042e-06
+Average CFD-Evals: 729.4
+Average Number of Tensors: 2.5
+Average Number of Inputs: 3.1
+Average 1st input pruning: 17.1
+Average 2nd input pruning: 35.9
+Average 1st tensor pruning: 34.3
+Standard Deviation of Loss: 2.05476e-07
+Standard Deviation of CFD-Evals: 153.96
+Standard Deviation of Inputs: 0.83066
+Standard Deviation of Tensors: 0.5
+Standard Deviation of 1st input pruning: 9.235
+Standard Deviation of 2nd input pruning: 15.82056
+Standard Deviation of 1st tensor pruning: 16.805
+
+If no 2nd pruning, then set to 50!
+

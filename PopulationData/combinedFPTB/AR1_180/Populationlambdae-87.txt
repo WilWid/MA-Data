@@ -1,0 +1,119 @@
+Seed: 0
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 1
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 2
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 3
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 4
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 5
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 6
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 7
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 8
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 9
+Individual: 
+Loss:  (+ eps = *8e-7 + mu = *8e-7 regularization)
+Used Tensors: 
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Tensor Importance Order: V1 = , V2 = , V3 = 
+Feature Importance Order: I1 = , I2 = , N1 = , N2 = , N3 = 
+
+Average GEP Loss: 
+Average Number of Tensors: 
+Average Number of Inputs: 
+Standard Deviation of Loss: 
+Standard Deviation of Tensors: 
+Standard Deviation of Inputs: 

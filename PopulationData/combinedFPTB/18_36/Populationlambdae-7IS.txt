@@ -1,0 +1,259 @@
+Seed: 0
+Individual: 00930
+Loss: 1.97231e-06, 3.65542e-06 (+ eps = 2e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I2, N2
+First Input pruning: I1 at GEN19
+Second Input pruning: N1 at GEN40
+Third Input pruning: -
+First Tensor pruning: -
+Expressions:
+-,+,+,I2,1.0,I2,0.205
++,*,N2,0.430,-,+,0,0,-,N2,0
+-,+,I2,0.0,+,*,N2,+,I2,N1,2.0
+CFD-Evals: 1519
+Comment: 
+
+Seed: 1
+Individual: 00611
+Loss: 4.86443e-06, 8.3941e-07 (+ eps = 4e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: I1, I2, N2, N3
+First Input pruning: I2 at GEN34
+Second Input pruning: N1 at GEN40
+Third Input pruning: -
+First Tensor pruning: V3 at GEN25
+Expressions:
++,*,-,*,+,N2,-0.39,-0.39,2.0,I1,-,I2,I1
+*,-,-,N3,-1.0,+,-0.39,+,N2,N2,2.0
+*,+,0,0,0
+CFD-Evals: 1545
+Comment: 
+
+Seed: 2
+Individual: 00449
+Loss: 5.18886e-06, 1.38487e-06 (+ eps = 2e-7 + mu = 1e-7 regularization)
+Used Tensors: V3
+Used Inputs: N1, N3
+First Input pruning: I2 at GEN12
+Second Input pruning: I1 at GEN18
+Third Input pruning: N2 at GEN23
+First Tensor pruning: V1 at GEN4
+Second Tensor pruning: V2 at GEN18
+Expressions:
+*,-,0,0,0
+*,*,0,0,0
+-,-,-,0.0,*,*,2.0,-0.94,-0.94,N3,N1
+CFD-Evals: 651
+Comment: 
+
+Seed: 3
+Individual: 00547
+Loss: 1.65821e-06, 3.27221e-06 (+ eps = 5e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, I2, N1, N2, N3
+First Input pruning: -
+First Tensor pruning: -
+Expressions:
++,*,+,*,+,-1.0,I2,+,N2,0.021,N3,N1,*,I2,-,+,-1.0,-0.41,N1
+*,-,*,+,-,2.0,0.0,1.0,I1,-,2.0,N2,*,2.0,N1
++,-,N1,+,N3,*,0.0,*,0.0,0.101,0.416
+CFD-Evals: 2364
+Comment: 
+
+Seed: 4
+Individual: 00936
+Loss: 5.13073e-06, 1.04074e-06 (+ eps = 2e-7 + mu = 2e-7 regularization)
+Used Tensors: V2, V3
+Used Inputs: N1, N2
+First Input pruning: I1 at GEN12
+Second Input pruning: I2 at GEN31
+Third Input pruning: -
+First Tensor pruning: V1 at GEN7
+Expressions:
+*,*,0,0,0
++,+,+,*,N1,1.0,*,-1.0,0.094,+,0.945,N2,N2
++,*,N1,0.945,N2
+CFD-Evals: 1044
+Comment: 
+
+Seed: 5 --> fail
+Individual: 00140
+Loss: 5.280838714502854e-06, 8.315628640554979e-07 (+ eps = 4e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, I2, N2, N3
+First Input pruning: 
+First Tensor pruning: 
+Expressions:
+-,*,+,*,0.0,+,I2,0.0,I2,N3,N3
++,*,+,N2,-,-,-1.0,N3,-,2.0,I1,-,-,-,N3,1.0,-,0.741,0.0,-,2.0,N2,*,+,I1,I2,-0.58
++,+,-0.58,I2,+,+,I2,N3,0.0
+CFD-Evals: 511
+Comment: best individual uses V1, other 4 do not. V1 gets penalized, but individual still has it. From generation 39 to 40 suddenly the second best individuals get replaced by worse ones. 
+
+Seed: 6
+Individual: 00838
+Loss: 1.95394e-06, 3.21147e-06 (+ eps = 4e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: I1, I2, N1, N2
+First Input pruning: N3 at GEN24
+First Tensor pruning: V3 at GEN28
+Expressions:
+*,-,-0.33,N2,-,+,*,I1,I2,*,I2,I2,*,N1,N1
++,*,-,-,+,-0.91,I1,0.785,1.0,I1,0.785
+-,+,0,0,0
+CFD-Evals: 1622
+Comment: 
+
+Seed: 7
+Individual: 01041
+Loss: 1.6047e-06, 3.39277e-06 (+ eps = 5e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, I2, N2, N2, N3
+First Input pruning: -
+First Tensor pruning: -
+Expressions:
++,+,-,I2,-0.84,I2,*,*,I2,+,2.0,0.446,N1
+*,-,-,I2,-1.0,+,I2,N2,-,*,-,N1,-1.0,*,N3,1.0,*,2.0,-1.0
++,*,I2,+,N2,I1,2.0
+CFD-Evals: 2448
+Comment: 
+
+Seed: 8 --> fail
+Individual: 00412
+Loss: 2.6847835616314886e-06, 3.1506057106358165e-06 (+ eps = 4e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I2, N1, N2, N3
+First Input pruning: 
+First Tensor pruning: 
+Expressions:
++,*,-,N3,*,+,N1,0.738,+,I2,0.746,0,N2
+-,*,-1.0,1.0,N1
++,+,N2,0,N3
+CFD-Evals: 817
+Comment: Hier genauso. Der Optimierer kann nicht gut damit umgehen, wenn das beste Individuum nicht so ist wie die anderen. 
+Einfache Lösung: 
+Voting 5-o-5 --> langsamerer Voting Mechanismus, kann nicht 4-o-5 voting verwenden
+Voting 4-o-5 mit bestem Individuum übereinstimmung --> kann methodik weiterverwenden
+
+Seed: 9
+Individual: 00643
+Loss: 5.21661e-06, 1.09189e-06 (+ eps = e-7 + mu = e-7 regularization)
+Used Tensors: V2, V3
+Used Inputs: N2
+First Input pruning: N3 at GEN11
+First Input pruning: N1 at GEN15
+First Input pruning: I1 at GEN22
+First Input pruning: I2 at GEN22
+First Tensor pruning: V1 at GEN15
+Expressions:
+-,-,0,0,0
++,*,N2,*,-0.73,0.0,+,-0.97,2.0
+-,*,-1.0,1.0,N2
+CFD-Evals: 777
+Comment: 
+
+Seed: 10 --> fail
+Individual: 00714
+Loss: 2.754104315216915e-06, 3.07114375040635e-06 (+ eps = 3e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: N1, N2, N3
+First Input pruning: I2 at GEN20
+First Input pruning: I1 at GEN23
+First Input pruning: -
+First Input pruning: -
+First Tensor pruning: V3 at GEN22
+Second Tensor pruning: V1 at GEN42
+Expressions:
+*,-,+,-1.0,1.0,N2,+,*,0.542,-0.95,-,1.0,N1
+-,-,-,*,-,0.497,2.0,N1,2.0,N2,*,N3,N3
+*,+,0,0,0
+CFD-Evals: 1387
+Comment: 
+
+Seed: 11
+Individual: 01079
+Loss: 1.90101e-06, 3.66545e-06 (+ eps = 4e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, I2, N1, N2
+First Input pruning: N3 at GEN8
+First Input pruning: -
+First Input pruning: -
+First Input pruning: -
+First Tensor pruning: -
+Expressions:
+-,*,-,-0.07,I1,+,-,2.0,N2,N1,-1.0
+*,+,I1,I2,*,-1.0,N1
+-,*,+,-,I1,N1,-,I1,0.449,0,+,N2,N1
+CFD-Evals: 1400
+Comment: 
+
+Seed: 12
+Individual: 00347
+Loss: 1.65731e-06, 3.17634e-06 (+ eps = 4e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Inputs: I1, I2, N1, N2
+First Input pruning: N3 at GEN5
+First Input pruning: -
+First Input pruning: -
+First Input pruning: -
+First Tensor pruning: -
+Expressions:
+-,+,*,I1,0.0,I1,-,N2,+,0.0,N1
+-,+,-,-1.0,I2,+,*,-,N1,1.0,1.0,+,-1.0,I1,*,-0.47,-1.0
+*,+,I1,-,N2,I1,N1
+CFD-Evals: 1208
+Comment: 
+
+Seed: 13
+Individual: 00816
+Loss: 5.1823e-06, 1.01926e-06 (+ eps = e-7 + mu = e-7 regularization)
+Used Tensors: V2
+Used Inputs: N3
+First Input pruning: I1 at GEN14 
+First Input pruning: N1 at GEN15
+First Input pruning: N2 at GEN16
+First Input pruning: I2 at GEN33
+First Tensor pruning: V3 at GEN15
+Second Tensor pruning: V3 at GEN25
+Expressions:
+*,-,0,0,0
++,*,N3,1.0,0.931
+*,*,0,0,0
+CFD-Evals: 813
+Comment: 
+
+Seed: 14
+Individual: 01037
+Loss: 1.90306e-06, 3.3082e-06 (+ eps = 2e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Inputs: N1, N2
+First Input pruning: I1 at GEN29
+First Input pruning: I2 at GEN38
+First Input pruning: N3 at GEN38
+First Input pruning: -
+First Tensor pruning: V3 at GEN9
+Expressions:
+*,-,*,+,0.027,N1,N1,0,+,0.0,N2
+-,*,N2,0.0,+,N1,2.0
++,+,0,0,0
+CFD-Evals: 1746
+Comment: 
+
+Average GEP Loss: 5.60763e-06
+Average CFD-Evals: 1428.083
+Average Number of Tensors: 2.25
+Average Number of Inputs: 3.0
+Average 1st input pruning: 22.3333
+Average 2nd input pruning: 37.25
+Average 1st tensor pruning: 29.417
+Standard Deviation of Loss: 5.69299e-07
+Standard deviation of CFD-Evals: 553.746 
+Standard Deviation of Inputs: 1.41421
+Standard Deviation of Tensors: 0.721688
+Standard Deviation of 1st input pruning: 14.84
+Standard Deviation of 2nd input pruning: 13.62672 
+Standard Deviation of 1st tensor pruning: 18.531
+
+If no 2nd pruning, then set to 50!
+

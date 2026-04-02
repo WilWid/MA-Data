@@ -1,0 +1,139 @@
+Seed: 0
+Individual: 00364
+Loss: 9.14945e-07 (+ eps = 1e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Features: I1
+Expressions: 
+-,*,0,0,I1
++,+,I1,2.0,0
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 1
+Individual: 00886
+Loss: 1.00849e-06 (+ eps = 1e-7 + mu = 2e-7 regularization)
+Used Tensors: V2, V3
+Used Features: N2
+Expressions: 
+*,+,0,0,0
+*,*,+,+,+,0.0,0.440,1.0,0.0,N2,2.0
++,+,-0.99,-,N2,N2,+,-,-,-0.16,-0.39,*,-0.99,-0.39,0.0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 2
+Individual: 00547
+Loss: 9.80544e-07 (+ eps = 3e-7 + mu = 1e-7 regularization)
+Used Tensors: V2
+Used Features: I1, N2, N3
+Expressions: 
+*,-,0,0,0
++,+,+,I1,N3,N2,N2
+*,-,*,+,-0.12,N2,N3,0,0 --> zero
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 3
+Individual: 00745
+Loss: 5.50239e-07 (+ eps = 3e-7 + mu = 3e-7 regularization)
+Used Tensors: V1, V2, V3
+Used Features: I2, N1, N3
+Expressions: 
+-,*,-,N3,N1,*,-,N1,+,I2,I2,+,0.101,1.0,1.0
+-,*,+,2.0,-,-,0.416,0.0,I2,-,2.0,I2,*,2.0,-1.0
++,+,-1.0,N1,I2
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 4
+Individual: 00373
+Loss: 9.31019e-07 (+ eps = 3e-7 + mu = 2e-7 regularization)
+Used Tensors: V2, V3
+Used Features: I2, N1, N3
+Expressions: 
++,-,0,0,0
+-,+,N3,-,-,*,I2,-1.0,+,I2,-1.0,I2,I2
+-,*,N1,N1,-,1.0,0.429
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 5
+Individual: 00783
+Loss: 6.57359e-07 (+ eps = 2e-7 + mu = 5e-7 regularization)
+Used Tensors: V1, V2
+Used Features: N2, N3
+Expressions: 
+-,*,+,0,*,0,0,*,N3,1.0,N3
++,*,+,N2,-,-,-1.0,0.837,-,2.0,-0.58,-,-,-,N3,N3,-,0.741,0.0,-,2.0,N2,-0.55
+*,+,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 6
+Individual: 00634
+Loss: 8.81631e-07 (+ eps = 2e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Features: I1, I2
+Expressions: 
++,-,I1,I2,+,-1.0,I1
++,+,2.0,2.0,2.0
+*,+,-0.91,I2,0 --> zero
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 7
+Individual: 01006
+Loss: 7.47222e-07 (+ eps = 3e-7 + mu = 2e-7 regularization)
+Used Tensors: V1, V2
+Used Features: I2, N1, N2
+Expressions: 
++,-,-,-0.84,I2,I2,*,*,I2,+,2.0,-0.84,N1
+-,-,*,+,2.0,N1,-,N2,-1.0,-,I2,N2,-,I2,2.0
+*,*,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 8
+Individual: 00679
+Loss: 1.01206e-06 (+ eps = 1e-7 + mu = 1e-7 regularization)
+Used Tensors: V2
+Used Features: I1
+Expressions: 
++,-,0,0,0
++,+,*,I1,+,0.746,I1,*,0.937,2.0,I1
+-,-,+,0,0,0,0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Seed: 9
+Individual: 00319
+Loss: 1.03878e-06 (+ eps = 1e-7 + mu = 1e-7 regularization)
+Used Tensors: V2, V3
+Used Features: I2, N2
+Expressions: 
+*,-,0,0,0
++,-,I2,-0.97,N2
++,-,-0.00,1.0,I2
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Comment: 
+
+Tensor Importance Order: V1 = 5, V2 = 10, V3 = 4
+Feature Importance Order: I1 = 4, I2 = 5, N1 = 3, N2 = 5, N3 = 4
+
+Average GEP Loss: 8.72229e-07
+Average Number of Tensors: 1.9
+Average Number of Inputs: 2.1
+Standard Deviation of Loss: 1.57618e-07
+Standard Deviation of Tensors: 0.538516
+Standard Deviation of Inputs: 0.830662

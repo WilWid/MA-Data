@@ -1,0 +1,85 @@
+BFS no regularization results --> AR1_180
+Worklflow:
+1. Find expression that need to be evaluated
+2. Go into eval_template folder system
+3. Make sure eval_model.py points to the correct case
+4. Insert the expression in input_template
+
+AR1_180 with "Boussinesq" --> Loss: 
+AR1_180 NoReg average (for normalization) --> Loss: 
+
+Seed: 0
+Expressions: 
+-,*,N3,*,N3,N2,N2
+-,*,0,0,0
+-,*,0,0,0
+Loss: 5.978252210105799e-06
+
+Seed: 1
+Expressions: 
+*,+,N1,-0.39,-0.39
+-,*,0,0,0
+-,*,0,0,0
+Loss: 5.978270044591303e-06
+
+Seed: 2
+Expressions: 
+*,*,+,-,+,0.099,2.0,*,-1.0,N3,N1,-,+,*,N3,-1.0,N1,*,N1,-0.94,I2
+*,-,0,0,0
++,-,0,0,0
+Loss: 5.9782702102281646e-06
+
+Seed: 3
+Expressions: 
++,*,-,-,-1.0,-,N1,1.0,-0.41,-,I2,+,-,0.416,I2,*,-1.0,1.0,0.101
+-,+,0,0,0
++,+,0,0,0
+Loss: 5.9782356177147015e-06
+
+Seed: 4
+Expressions: 
++,*,I2,-1.0,*,*,-,I2,N2,N2,0.429
+-,*,+,0,0,0,0
+-,*,2.0,N2,I2
+Loss: 5.649560233068677e-06
+
+Seed: 5
+Expressions: 
+-,+,-,0.0,2.0,*,2.0,N3,0.0
++,-,+,-0.58,2.0,-1.0,N3
+-,*,0,0,0
+Loss: 4.729186573692133e-06
+
+Seed: 6
+Expressions: 
+-,*,I1,-,-,-1.0,0.0,+,-0.33,2.0,I1
++,*,0,0,0
+*,+,0,0,0
+Loss: 5.978308501760676e-06
+
+Seed: 7
+Expressions: 
+*,-,-1.0,I2,-,-1.0,+,-,-0.84,N2,*,0.446,N2
+-,+,I2,-1.0,N2
+*,-,0,0,0
+Loss: 5.464845884388681e-06
+
+Seed: 8
+Expressions: 
+*,-,0,2.0,I1
++,-,0,0,0
++,*,0,0,0
+Loss: 5.97828932226617e-06
+
+Seed: 9
+Expressions: 
+-,*,I2,1.0,-,*,-0.97,-0.00,+,-0.97,N3
++,*,0,0,0
+-,+,N3,-1.0,+,I2,-,-0.97,-,1.0,-1.0
+Loss: 5.298692221136259e-06
+
+
+Average GEP Loss:
+5.7012e-06
+Standard Deviation of Loss:
+4.0323e-07
