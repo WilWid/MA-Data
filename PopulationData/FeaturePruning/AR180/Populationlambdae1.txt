@@ -1,0 +1,118 @@
+Seed: 5
+Individual: 
+Loss: 2.8001329896465155e-06
+Used Features: None
+Expressions: 
+-,*,0.0,0.0,-0.55
++,*,1.0,-0.58,-1.0
+-,+,+,1.0,2.0,*,2.0,0.837,2.0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 6 --> fail (noch features)
+Individual: 00955
+Loss:  
+Used Features: 
+Expressions: 
+*,*,2.0,N2,N2
+*,*,1.0,N2,0.785
++,-,+,*,N2,-,0.785,-0.33,N2,2.0,-0.33
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 7
+Individual: 00777
+Loss: 3.3325838847407172e-06
+Used Features: None
+Expressions: 
+*,-,-1.0,0.446,-0.12
+-,+,-,-1.0,2.0,-1.0,1.0
++,+,2.0,+,-0.84,+,*,0.446,0.559,2.0,2.0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 8 --> fail
+Individual: 00482
+Loss:  
+Used Features: 
+Expressions: 
+-,*,1.0,0.746,*,I1,1.0
++,*,1.0,1.0,0.738
++,*,*,-1.0,I1,+,-1.0,-1.0,I1
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 9 --> fail
+Individual: 00678
+Loss:  
+Used Features: 
+Expressions: 
+-,-,N3,+,1.0,I1,-0.73
+*,*,-,-,I1,0.0,N3,*,2.0,-1.0,N3
++,*,I1,1.0,I1
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 0 --> fail
+Individual: 
+Loss:  
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 1 --> fail
+Individual: 
+Loss:  
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 2 --> fail
+Individual: 
+Loss:  
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 3 
+Individual: 00894
+Loss:  1.015685326249582e-06
+Used Features: 
+Expressions: 
+*,-,+,-,-,0.0,0.101,-,-0.41,0.101,*,-1.0,1.0,0.0,0.0
+*,-,0.0,-1.0,*,2.0,1.0
+*,+,0.0,*,-,-0.41,*,0.416,1.0,*,-1.0,-0.41,-0.41
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Seed: 4 --> fail
+Individual: 
+Loss:  
+Used Features: 
+Expressions: 
+
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+
+Feature Importance Order: I2=3, N3=3, I1=3, N1=5, N2=5
+
+Average GEP Loss: 2.20239e-06
+Average Number of Inputs: 1.9
+Standard Deviation of Loss: 3.59457e-07
+Standard Deviation of Inputs: 0.830662
+
+I1  1.701414e-07  4.335656e-07
+I2 -4.890729e-07  3.768578e-07
+N1 -4.281580e-07  4.083616e-07
+N2  1.352340e-07  4.992742e-07
+N3 -5.237762e-08  4.370080e-07
+
+
+New importance measure? Next to relative occurrence.
+How does the loss value depend on the used inputs?

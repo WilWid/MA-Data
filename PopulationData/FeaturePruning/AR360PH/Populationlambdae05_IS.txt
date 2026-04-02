@@ -1,0 +1,167 @@
+Seed: 0 
+Individual: 01068
+Loss: 1.0705, 3.71513 (+ 2*0.5 regularization)
+Used Features: I1, N3
+First pruning: N2 at GEN14
+Second pruning: N1 at GEN17
+Third pruning: I2 at GEN34
+Expressions:
+*,+,*,-,I1,-,0.0,0.0,+,I1,0.430,-1.0,+,I1,*,*,0.089,2.0,N3
+-,-,2.0,0.097,0.0
++,*,+,-,N3,+,0.430,1.0,-,0.0,-1.0,I1,-1.0
+CFD-Evals: 1119/2152
+Comment: 
+
+Seed: 1 
+Individual: 00762
+Loss: 0.9387, 3.48087 (+ 4*0.5 regularization)
+Used Features: I1, I2, N2, N3
+First pruning: N1 at GEN10
+Second pruning: - 
+Expressions:
++,*,-,*,+,N2,2.0,-0.39,2.0,I1,-,I2,I1
++,-,-0.16,N2,2.0
+*,+,N3,I1,+,-,-,0.0,-0.39,*,-0.99,-0.39,-,-1.0,N3
+CFD-Evals: 1461/2034
+Comment: 
+
+Seed: 2 
+Individual: 01042
+Loss: 0.90152, 3.33795 (+ 3*0.5 regularization)
+Used Features: I2, N1, N2
+First pruning: N3 at GEN14
+Second pruning: I1 at GEN26
+Expressions:
+*,+,+,-,+,N1,2.0,-,-1.0,1.0,-,1.0,0.099,-,+,*,2.0,-1.0,N1,*,N1,-0.94,I2
+-,*,-,+,*,-0.12,1.0,-,-1.0,N2,*,-0.12,N2,I2,-,-,N2,+,-0.12,-0.12,+,2.0,1.0
+-,*,-1.0,N2,*,I2,-0.94
+CFD-Evals: 1482/2276
+Comment: 
+
+Seed: 3 
+Individual: 00846
+Loss: 0.77958, 3.84775 (+ 2*0.5 regularization)
+Used Features: I2, N1
+First pruning: I1 at GEN6
+Second pruning: N3 at GEN15
+Third pruning: N2 at GEN25
+Expressions:
++,*,-,-,-1.0,-,N1,1.0,-0.41,-,I2,*,-,0.416,I2,*,-1.0,1.0,+,I2,+,+,0.021,I2,0.0
+-,*,+,2.0,-,-,0.416,0.0,I2,2.0,1.0
+-,+,0.021,1.0,I2
+CFD-Evals: 995/1916
+Comment: 
+
+Seed: 4 
+Individual: 00840
+Loss: 0.82758, 3.3318 (+ 4*0.5 regularization)
+Used Features: I2, N1, N2, N3
+First pruning: I1 at GEN17
+Second pruning: -
+Expressions:
+*,*,N1,N2,*,*,-,I2,1.0,*,N1,0.934,0.429
+-,-,+,N2,N3,+,-,-,-1.0,N3,0.934,-1.0,+,N1,0.934
++,-,*,-,N3,N3,-,1.0,0.945,N1,+,0.0,2.0
+CFD-Evals: 1798/2392
+Comment: 
+
+Seed: 5 
+Individual: 01017
+Loss: 0.9088, 3.37495 (+ 3*0.5 regularization)
+Used Features: I2, N1, N3
+First pruning: I1 at GEN
+Second pruning: N2 at GEN5
+Expressions:
+*,+,2.0,+,0.0,+,+,0.741,0.837,+,1.0,N1,I2
++,*,*,*,I2,*,-0.58,0.0,0.0,0.741,N3
++,*,0.837,*,-,*,1.0,N1,0.741,I2,-,N1,-,+,1.0,2.0,-,N3,2.0
+CFD-Evals: 1092/2168
+Comment: 
+
+Seed: 6 
+Individual: 00640
+Loss: 0.9204, 3.52864 (+ 2*0.5 regularization)
+Used Features: I1, N2
+First pruning: N1 at GEN7
+Second pruning: N3 at GEN10
+Third pruning: I2 at GEN25
+Expressions:
+-,*,I1,-,-,-1.0,N2,N2,*,*,+,-1.0,0.785,-,I1,0.785,0.642
++,*,N2,I1,I1
++,-,+,-,*,N2,1.0,-,1.0,0.785,*,I1,0.642,1.0,*,+,+,-1.0,0.0,-,-0.91,0.642,-,0.642,-0.91
+CFD-Evals: 1055/2186
+Comment: 
+
+Seed: 7 
+Individual: 00777
+Loss: 0.84927, 3.61194 (+ 4*0.5 regularization)
+Used Features: I1, I2, N1, N2
+First pruning: N3 at GEN9
+Expressions:
+-,*,-,1.0,I2,0.0,-,-1.0,+,-,-0.84,N2,*,0.446,N2
+-,-,*,+,2.0,N1,2.0,N2,+,+,N2,I2,1.0
++,+,+,N1,N1,I1,*,N2,I1
+CFD-Evals: 1591/2340
+Comment: 
+
+Seed: 8 
+Individual: 00996
+Loss: 1.20233, 3.87756 (+ 1*0.5 regularization)
+Used Features: N3
+First pruning: I2 at GEN17
+Second pruning: I1 at GEN24
+Second pruning: N2 at GEN36
+Second pruning: N1 at GEN48
+Expressions:
+-,+,N3,0.746,2.0
++,+,0.738,*,-1.0,-1.0,0.746
+-,-,N3,0.061,N3
+CFD-Evals: 1263/2056
+Comment: 
+
+Seed: 9 
+Individual: 00916
+Loss: 1.02871, 3.7188 (+ 3*0.5 regularization)
+Used Features: I1, N1, N2
+First pruning: I2 at GEN16
+Second pruning: N3 at GEN21
+Expressions:
+*,+,N2,N2,*,+,N2,+,-0.97,0.0,1.0
++,*,*,-,+,N1,-1.0,+,I1,-0.00,0.003,0.0,+,*,*,-1.0,-0.97,-,0.0,-0.97,N2
++,-,-0.00,+,*,-,-0.73,2.0,*,N1,I1,+,2.0,N1,-,-,I1,N1,N1
+CFD-Evals: 1029/2254
+Comment: 
+
+Seed: 10
+Individual: 00620
+Loss: 0.86558, 3.91339 (+ 2*0.5 regularization)
+Used Features: N2, N3
+First pruning: I2 at GEN7
+Second pruning: N1 at GEN7
+Third pruning: I1 at GEN28
+Expressions:
+*,-,+,-1.0,N3,N2,0.542
+*,+,*,N3,+,N3,-,0.497,-0.95,N2,N2
+*,+,*,+,*,1.0,0.542,2.0,N3,1.0,-0.95
+CFD-Evals: 783/1526
+Comment: 
+
+ 
+
+Average GEP Loss1: 0.935725
+Average GEP Loss2: 3.61262
+Average GEP Loss1_2: 4.525278
+Average CFD-Evals: 0.582777 - 1242.545
+Average Number of Inputs: 2.8
+Average 1st pruning: 11.091
+Average 2nd pruning: 25
+Standard Deviation of Loss1: -
+Standard Deviation of Loss2: -
+Standard Deviation of Loss1_2: 0.27021727
+Standard deviation of CFD-Evals: 0.0986476 - 290.233
+Standard Deviation of Inputs: 0.979796
+Standard Deviation of 1st pruning: 4.39947
+Standard Deviation of 2nd pruning: 16.531
+
+If no 2nd pruning, then set to 50!
+

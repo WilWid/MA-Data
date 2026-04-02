@@ -1,0 +1,85 @@
+AR1_180 no regularization results --> AR1_360
+Worklflow:
+1. Find expression that need to be evaluated
+2. Go into eval_template folder system
+3. Make sure eval_model.py points to the correct case
+4. Insert the expression in input_template
+
+AR1_360 with "Boussinesq" --> Loss: 6.35514e-06
+AR1_360 NoReg average (for normalization) --> Loss: 7.26363e-07
+
+Seed: 0
+Expressions: 
+-,+,+,I2,N1,I2,N2
+-,*,N2,N3,+,-,N1,-,I2,I2,N1
+-,-,I2,-,I2,+,-,2.0,0.089,N3,1.0
+Loss: 4.268234422755377e-06
+
+Seed: 1
+Expressions: 
+*,+,-,N1,I1,*,N3,-,*,N2,0.440,-0.16,N2
+-,-,N2,+,I1,N2,N3
+*,*,*,I1,-,-0.39,1.0,+,N3,*,-0.39,-,-0.99,N1,+,-0.99,0.0
+Loss: 5.542306687935687e-06
+
+Seed: 2
+Expressions: 
+*,-,+,-1.0,I1,-,I1,+,N1,-,0.555,0.0,-,N3,-0.52
+*,+,*,-,*,-1.0,0.931,-,N2,0.0,*,0.648,0.648,-,*,I2,I2,I2,*,*,N3,+,N3,N2,N1
++,-,-,N1,N1,-,N2,*,N1,-,0.555,0.931,I2
+Loss: 5.905111363630965e-06
+
+Seed: 3
+Expressions: 
+-,*,+,*,+,-1.0,I2,+,N2,0.021,N3,*,N3,N1,*,I2,-,+,I2,-0.41,N1
+*,*,*,+,-,2.0,N2,+,1.0,I2,-1.0,-,2.0,N2,N1
++,*,+,N2,*,0.0,N1,-1.0,I2
+Loss: 3.916170865982158e-06
+
+Seed: 4
+Expressions: 
+-,-,N1,N2,0.0
++,-,1.0,2.0,0.0
++,*,*,-,-,N1,N2,-1.0,*,N1,0.934,N1,N1
+Loss: 4.896301182380082e-06
+
+Seed: 5
+Expressions: 
++,-,N1,N2,I2
+-,*,-0.07,0.0,N1
++,+,N1,0.0,+,N2,-,N1,-,-0.63,I2
+Loss: 4.5083569154193385e-06
+
+Seed: 6
+Expressions: 
+-,-,*,N1,+,N1,+,-0.33,I2,N3,-,+,*,-1.0,I2,*,I2,-1.0,*,N1,N1
++,+,*,*,N3,*,N2,1.0,N2,N2,-,*,1.0,+,N3,N1,N3
+-,-,1.0,*,0.0,-,N1,N2,N2
+Loss: 5.2061244735428195e-06
+
+Seed: 7
+Expressions: 
+-,*,I2,N2,-,N2,+,*,-0.69,I1,N1
+-,+,-,-1.0,I2,+,-1.0,N2,-,-0.47,-1.0
++,+,I1,N1,*,I2,-,+,N1,N1,-,N2,N2
+Loss: 4.502006497931732e-06
+
+Seed: 8
+Expressions: 
++,*,+,2.0,N3,*,I2,-,+,1.0,N1,+,0.061,I2,-,*,N1,N3,N2
+-,*,1.0,-1.0,-,-,*,0.738,1.0,-1.0,*,1.0,N2
+-,*,N2,N2,+,-,N2,N2,-,I2,0.738
+Loss: 2.749223044587107e-06
+
+Seed: 9
+Expressions: 
+*,+,N2,N2,N2
++,+,*,N3,-,I1,*,-0.97,0.0,N2,*,N3,*,N1,-,I2,0.0
+*,*,-,N1,+,*,N3,0.003,I1,1.0,+,-,*,1.0,I2,N2,-0.73
+Loss: 3.71377336308525e-06
+
+
+Average GEP Loss:
+4.3574e-06
+Standard Deviation of Loss:
+1.4501e-06

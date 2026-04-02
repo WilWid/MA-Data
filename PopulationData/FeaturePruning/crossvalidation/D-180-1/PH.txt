@@ -1,0 +1,83 @@
+AR1_180 no regularization results --> PH
+Worklflow:
+1. Find expression that need to be evaluated
+2. Go into eval_template folder system
+3. Make sure eval_model.py points to the correct case
+4. Insert the expression in input_template
+
+PH with "Boussinesq" --> Loss: 0.007752564628403207
+PH NoReg average (for normalization) --> Loss: 
+
+Seed: 0
+Expressions: 
+-,+,+,I2,N1,I2,N2
+-,*,N2,N3,+,-,N1,-,I2,I2,N1
+-,-,I2,-,I2,+,-,2.0,0.089,N3,1.0
+Loss: 0.048370035806965195
+
+Seed: 1
+Expressions: 
+*,+,-,N1,I1,*,N3,-,*,N2,0.440,-0.16,N2
+-,-,N2,+,I1,N2,N3
+*,*,*,I1,-,-0.39,1.0,+,N3,*,-0.39,-,-0.99,N1,+,-0.99,0.0
+Loss: divergiert
+
+Seed: 2
+Expressions: 
+*,-,+,-1.0,I1,-,I1,+,N1,-,0.555,0.0,-,N3,-0.52
+*,+,*,-,*,-1.0,0.931,-,N2,0.0,*,0.648,0.648,-,*,I2,I2,I2,*,*,N3,+,N3,N2,N1
++,-,-,N1,N1,-,N2,*,N1,-,0.555,0.931,I2
+Loss: 0.05775887070485612
+
+Seed: 3
+Expressions: 
+-,*,+,*,+,-1.0,I2,+,N2,0.021,N3,*,N3,N1,*,I2,-,+,I2,-0.41,N1
+*,*,*,+,-,2.0,N2,+,1.0,I2,-1.0,-,2.0,N2,N1
++,*,+,N2,*,0.0,N1,-1.0,I2
+Loss: 0.03295721573994618
+
+Seed: 4
+Expressions: 
+-,-,N1,N2,0.0
++,-,1.0,2.0,0.0
++,*,*,-,-,N1,N2,-1.0,*,N1,0.934,N1,N1
+Loss: 0.05730970769918271
+
+Seed: 5
+Expressions: 
++,-,N1,N2,I2
+-,*,-0.07,0.0,N1
++,+,N1,0.0,+,N2,-,N1,-,-0.63,I2
+Loss: 0.052505145081892586
+
+Seed: 6
+Expressions: 
+-,-,*,N1,+,N1,+,-0.33,I2,N3,-,+,*,-1.0,I2,*,I2,-1.0,*,N1,N1
++,+,*,*,N3,*,N2,1.0,N2,N2,-,*,1.0,+,N3,N1,N3
+-,-,1.0,*,0.0,-,N1,N2,N2
+Loss: 0.053098625173017985
+
+Seed: 7
+Expressions: 
+-,*,I2,N2,-,N2,+,*,-0.69,I1,N1
+-,+,-,-1.0,I2,+,-1.0,N2,-,-0.47,-1.0
++,+,I1,N1,*,I2,-,+,N1,N1,-,N2,N2
+Loss: 0.051798808506169296
+
+Seed: 8
+Expressions: 
++,*,+,2.0,N3,*,I2,-,+,1.0,N1,+,0.061,I2,-,*,N1,N3,N2
+-,*,1.0,-1.0,-,-,*,0.738,1.0,-1.0,*,1.0,N2
+-,*,N2,N2,+,-,N2,N2,-,I2,0.738
+Loss: 0.021088177920696522
+
+Seed: 9
+Expressions: 
+*,+,N2,N2,N2
++,+,*,N3,-,I1,*,-0.97,0.0,N2,*,N3,*,N1,-,I2,0.0
+*,*,-,N1,+,*,N3,0.003,I1,1.0,+,-,*,1.0,I2,N2,-0.73
+Loss: 0.11082711955302908
+
+
+Average GEP Loss:
+Standard Deviation of Loss:

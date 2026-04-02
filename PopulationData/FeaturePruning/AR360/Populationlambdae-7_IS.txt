@@ -1,0 +1,109 @@
+Seed: 0 --> check
+Individual: 00782
+Loss: 8.14387e-07 (+ 3e-7 regularization)
+Used Features: I1, N2, N3
+First pruning: I2 at GEN25
+Second pruning: N1 at GEN33
+CFD-Evals: 782/1275
+Comment: 
+
+Seed: 1 --> check
+Individual: 00669
+Loss: 7.97025e-07 (+ 2e-7 regularization)
+First pruning: N1 at GEN12
+Second pruning: I1 at GEN29
+(Second pruning: I2 at GEN40)
+Used Features: N2, N3
+CFD-Evals: 543/1275
+Comment: 
+
+Seed: 2 --> check
+Individual: 701
+Loss: 7.77469e-07 (+ 4e-7 regularization)
+First pruning: I2 at GEN8
+(Second pruning:)
+Used Features: I1, N1, N2, N3
+CFD-Evals: 682/1275
+Comment: 
+
+Seed: 3 --> check
+Individual: 00500
+Loss: 7.4469e-07 (+ 3e-7 regularization)
+First pruning: N1 at GEN10
+Second pruning: I1 at GEN11
+Used Features: I2, N2, N3
+CFD-Evals: 444/1275
+Comment: 
+
+Seed: 4 --> check
+Individual: 00932
+Loss: 9.19833e-07 (+ 3e-7 regularization)
+First pruning: I1 at GEN15
+Second pruning: N1 at GEN48
+Used Features: I2, N2, N3
+CFD-Evals: 775/1275
+Comment: 
+
+Seed: 5 --> check
+Individual: 00849
+Loss: 6.6503e-07 (+ 3e-7 regularization)
+First pruning: N1 at GEN 13
+Second pruning: I2 at GEN48
+Used Features: I1, N2, N3
+CFD-Evals: 636/1275
+Comment: 
+
+Seed: 6 --> check
+Individual: 00655
+Loss: 7.6949e-07 (+ 2e-7 regularization)
+First pruning: N1 at GEN16
+Second pruning: N2 at GEN17
+(Third pruning: N3 at GEN21)
+Used Features: I1, I2
+CFD-Evals: 483
+Comment: 
+
+Seed: 7 --> check
+Individual: 00674
+Loss: 8.007061e-07 (+ 2e-7 regularization)
+First pruning: N3 at GEN10
+Second pruning: N2 at GEN25
+Used Features: I1, I2, N1
+CFD-Evals: 644/1275
+Comment: 
+
+Seed: 8
+Individual: 01029
+Loss: 9.189327e-07 (+ 3e-7 regularization)
+First pruning: N2 at GEN25
+Second pruning: N1 at GEN26
+Used Features: I1, I2, N3
+CFD-Evals: 812/1275
+Comment: 
+
+Seed: 9
+Individual: 00699
+Loss: 1.0029e-06 (+ 2e-7 regularization)
+First pruning: N1 at GEN6
+Second pruning: N2 at GEN12
+(Third pruning: I2 at GEN14)
+Used Features: I1, N3
+CFD-Evals: 309
+Comment: 
+
+ 
+
+Average GEP Loss: 8.2104628e-07 --> 0.96797 % loss of accuracy
+Average CFD-Evals: 611 -->  reduction ( if 30 gens suffice)
+Average Number of Inputs: 2.8
+Average 1st pruning: 14
+Average 2nd pruning: 27.9
+Standard Deviation of Loss: 9.39e-08
+Standard deviation of CFD-Evals: 156.01
+Standard Deviation of Inputs: 0.6
+Standard Deviation of 1st pruning: 6.1967
+Standard Deviation of 2nd pruning: 12.61
+
+If no 2nd pruning, then set to 50!
+
+Nochmal alles?

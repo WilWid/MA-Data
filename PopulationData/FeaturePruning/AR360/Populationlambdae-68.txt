@@ -1,0 +1,149 @@
+Seed: 0 
+Individual: 00889
+Loss: 6.98517e-07 (+ 5*(6e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
+*,-,I2,*,+,I1,I2,I1,N3
++,-,-,N2,N1,N1,-,+,2.0,-,2.0,N2,-,N2,0.097
++,*,*,*,N3,I1,N3,I2,+,-,+,0.205,0.097,1.0,I1
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 889/1185
+Comment: 
+
+Seed: 1 
+Individual: 00722
+Loss: 5.77699e-07 (+ 5*(6e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
++,*,-,*,+,N2,N1,-0.39,2.0,I1,-,I2,I1
+*,-,-,N3,-1.0,*,+,N2,-,1.0,-1.0,+,N1,-1.0,2.0
+-,+,I1,N2,+,-,-,0.0,N1,*,-0.39,-0.99,*,1.0,I2
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 722/950
+Comment: 
+
+Seed: 2 
+Individual: 00886
+Loss: 9.43063e-07 (+ 2*(6e-8) regularization)
+Used Features: N1, N2
+Expressions: 
+*,-,*,N2,N2,N1,*,N2,*,N1,0.0
++,*,N1,N2,2.0
+-,*,N1,+,+,+,N2,1.0,+,N2,-0.12,N2,*,-,-1.0,N2,+,0.0,-0.94
+anisotropy tensor:
+()*V1 + (*V2 + ()*V3
+Best Individual after how many iterations?: 886/1035
+Comment: 
+
+Seed: 3 
+Individual: 00997
+Loss: 7.04473e-07 (+ 3*(6e-8) regularization)
+Used Features: I2, N2, N3
+Expressions: 
+-,*,I2,*,-,*,I2,0.101,N2,+,0.021,0.101,N2
+-,+,+,2.0,-,-,0.416,-1.0,I2,N3,*,2.0,-1.0
++,+,N3,*,-,0.416,I2,+,-0.41,1.0,+,*,+,0.416,-1.0,-,N3,N2,N3
+anisotropy tensor:
+()*V1 + (*V2 + ()*V3
+Best Individual after how many iterations?: 997/1005
+Comment: 
+
+Seed: 4 
+Individual: 01091
+Loss: 7.32102e-07 (+ 3*(6e-8) regularization)
+Used Features: I2, N1, N2
+Expressions: 
+*,-,+,+,+,0.429,N2,I2,+,0.945,I2,-1.0,-,0.0,0.094
+*,+,N1,-,*,*,N2,1.0,-1.0,I2,0.0
+-,-,-,*,2.0,N1,-,2.0,0.094,-,N2,-1.0,+,+,N2,+,0.094,1.0,2.0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 1091/1125
+Comment: 
+
+Seed: 5 
+Individual: 00895
+Loss: 6.47918e-07 (+ 4*(6e-8) regularization)
+Used Features: I1, I2, N2, N3
+Expressions: 
+-,*,+,*,0.0,I1,+,I2,0.0,N3,N3
++,*,+,N2,-,-,-1.0,N3,-,2.0,I1,-,-,-,N3,1.0,-,0.741,-0.55,-,2.0,N2,-0.55
+-,-,-0.58,I2,-,N2,-,2.0,-,2.0,2.0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 895/1050
+Comment: 
+
+Seed: 6 
+Individual: 01042
+Loss: 6.03421e-07 (+ 2*(6e-8) regularization)
+Used Features: I1, N2
+Expressions: 
++,*,I1,+,1.0,-,N2,N2,+,-1.0,I1
++,+,+,*,+,N2,2.0,+,0.642,2.0,N2,2.0,2.0
++,+,+,-,-,0.642,N2,-,-0.33,2.0,*,0.785,N2,-,+,0.642,-1.0,*,2.0,-0.91,-0.33
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 1042/1066
+Comment: For the first time I saw that minimal GEP fitness individual and overall fitness individual differ. It seems run_best shows the minimal overall fitness which is very good.
+
+Seed: 7 
+Individual: 00958
+Loss: 5.34447e-07 (+ 4*(6e-8) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
++,+,-,-0.84,I2,I1,I1
++,-,*,+,2.0,-,N2,-1.0,2.0,-1.0,+,*,N2,*,I1,0.446,0.446
+*,-,*,N1,1.0,I2,*,2.0,+,N1,+,I1,N1
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 958/1007
+Comment: 
+
+Seed: 8 
+Individual: 00686
+Loss: 8.38046e-07 (+ 3*(6e-8) regularization)
+Used Features: I1, I2, N2
+Expressions: 
+-,-,0.937,0.0,*,-,N2,-,I2,2.0,-,1.0,N2
++,+,+,*,0.746,I1,*,I1,0.738,*,0.937,2.0,2.0
++,-,-,+,0.746,I2,-,0.738,-1.0,+,-1.0,*,I2,0.0,I2
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 686/1033
+Comment: 
+
+Seed: 9 
+Individual: 00650
+Loss: 7.47578e-07 (+ 4*(6e-8) regularization)
+Used Features: I2, N1, N2, N3
+Expressions: 
+*,+,-,-1.0,-0.97,I2,N3
++,+,+,N2,-,1.0,*,1.0,N3,0.0,+,*,*,-1.0,-0.97,-,N2,-0.97,N2
++,+,*,*,I2,*,I2,N2,+,N2,0.0,+,+,-,-0.73,2.0,*,N1,0.003,+,2.0,N1,*,*,-,-1.0,N1,-1.0,-,-0.00,0.0
+anisotropy tensor:
+()*V1 + ()*V2 + ()*V3
+Best Individual after how many iterations?: 650/925
+Comment: 
+
+Feature Importance Order: N2=10, I2=8, I1=6, N1=6, N3=5
+
+Average GEP Loss: 7.02726e-07
+Average Number of Inputs: 3.5
+Standard Deviation of Loss: 1.16526e-07
+Standard Deviation of Inputs: 1.024695
+
+new importance measure:
+I1 -1.317960e-07
+I2 -8.814450e-08
+N3 -5.497880e-08
+N1  7.103167e-09
+N2           NaN
+
+I1  -1.317960e-07  1.365702e-07
+I2  -8.814450e-08  1.924798e-07
+N1  7.103167e-09  1.587537e-07
+N2           NaN           NaN
+N3  -5.497880e-08  1.601419e-07

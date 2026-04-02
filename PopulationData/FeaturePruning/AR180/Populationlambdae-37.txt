@@ -1,0 +1,123 @@
+Seed: 0
+Individual: 00706
+Loss: 1.89052e-06 (+ 4*(3e-7) regularization)
+Used Features: I2, N1, N2, N3
+Expressions: 
+-,+,+,I2,N1,I2,N2 --> check
++,+,N2,0.430,+,-,N1,*,I2,-1.0,*,N1,N3 --> check
+*,-,-,I2,-,N1,0.0,*,N3,N2,+,N2,N2 --> check
+anisotropy tensor:
+(2*I2 + N1 - N2)*V1 + (I2 + N1*N3 + N1 + N2 + 0.43)*V2 + (2*N2*(I2 - N1 - N2*N3))*V3
+
+Seed: 1
+Individual: 00456
+Loss: 1.49361e-06 (+ 4*(3e-7) regularization)
+Used Features: I1, N1, N2, N3
+Expressions: 
++,-,+,-,N1,1.0,N2,*,N3,-,*,N2,0.440,-0.16,N2 --> check
+*,*,+,+,N3,*,N3,-0.99,-1.0,+,+,+,N1,I1,N1,-,1.0,-0.39,*,N1,*,N2,-,0.440,I1 --> check
+*,*,-,+,-,I1,N1,+,-1.0,N2,*,I1,N1,+,N3,-,*,-0.39,0.0,2.0,N3 --> check
+anisotropy tensor:
+(N1 + 2*N2 - N3*(0.44*N2 + 0.16) - 1.0)*V1 + (-N1*N2*(I1 - 0.44)*(0.01*N3 - 1.0)*(I1 + 2*N1 + 1.39))*V2 + (-N3*(N3 - 2.0)*(I1*N1 - I1 + N1 - N2 + 1.0))*V3
+
+Seed: 2
+Individual: 00945
+Loss: 1.46755e-06 (+ 4*(3e-7) regularization)
+Used Features: I1, N1, N2, N3
+Expressions: 
+-,-,-,N1,N2,1.0,-1.0 --> check
+-,*,+,+,+,N1,I1,N3,-,-0.12,-0.12,-1.0,*,-,N3,N2,*,N3,1.0 --> check
+*,-,-,-,-,1.0,1.0,*,N2,0.099,I1,N3,I1 --> check
+anisotropy tensor:
+(N1 - N2)*V1 + (-I1 - N1 + N3*(N2 - N3) - N3)*V2 + (-I1*(I1 + 0.099*N2 + N3))*V3
+
+Seed: 3
+Individual: 01016
+Loss: 1.35343e-06 (+ 4*(3e-7) regularization)
+Used Features: I1, N1, N2, N3
+Expressions: 
+-,*,+,*,+,-1.0,0.021,+,N2,0.021,N1,N1,I1 --> check
+*,*,-,-,*,N2,0.0,N3,+,N1,-1.0,-,2.0,-,-,0.101,1.0,*,N2,N2,N1 --> check
+*,-,+,N2,-,-,I1,N2,N3,N2,*,N2,N2 --> check
+anisotropy tensor:
+(-I1 - N1*(-N1 + 0.979*N2 + 0.020559))*V1 + (-N1*(N2**2 + 2.899)*(N1 + N3 - 1.0))*V2 + (N2**2*(I1 - N2 - N3))*V3
+
+Seed: 4
+Individual: 00803
+Loss: 1.29467e-06 (+ 3*(3e-7) regularization)
+Used Features: N1, N2, N3
+Expressions: 
+-,-,N1,N2,-,0.0,0.094 --> check
++,*,1.0,-,*,N3,*,-1.0,0.0,2.0,0.0 --> check
+-,-,N3,N2,0.945 --> check
+anisotropy tensor:
+(N1 - N2 + 0.094)*V1 + (-2.0)*V2 + (-N2 + N3 - 0.945)*V3
+
+Seed: 5
+Individual: 00924
+Loss: 1.32679e-06 (+ 4*(3e-7) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
+-,+,*,-,N1,-,0.0,1.0,N1,I2,+,-,+,1.0,-0.55,N2,*,0.741,2.0 --> check
+*,+,N1,-,I2,0.0,+,-,+,-0.55,-1.0,-0.58,I2 --> check
+*,+,I1,0.741,+,+,-,N1,I1,-,0.837,N1,1.0 --> check
+anisotropy tensor:
+(I2 + N1*(N1 + 1.0) + N2 - 1.932)*V1 + ((I2 - 0.97)*(I2 + N1))*V2 + (-(I1 - 1.837)*(I1 + 0.741))*V3
+
+Seed: 6
+Individual: 01006
+Loss: 1.49443e-06 (+ 4*(3e-7) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
+-,-,*,1.0,*,N1,+,-0.33,I2,I1,-,-,*,I1,0.785,*,1.0,I2,*,N1,N1 --> check
++,-,*,N2,I2,N2,-,*,1.0,+,N1,N1,I1 --> check
+*,+,1.0,-,I1,+,N1,1.0,N2 --> check
+anisotropy tensor:
+(-1.785*I1 + I2 + N1**2 + N1*(I2 - 0.33))*V1 + (-I1 + I2*N2 + 2.0*N1 - N2)*V2 + (N2*(I1 - N1))*V3
+
+Seed: 7
+Individual: 01127
+Loss: 1.5776e-06 (+ 3*(3e-7) regularization)
+Used Features: I1, I2, N1
+Expressions: 
++,+,+,-,*,I2,2.0,0.446,N1,I2,+,I2,I2 --> check
+-,-,+,I2,+,*,0.446,I1,0.0,I2,+,+,N1,N1,1.0 --> check
+-,*,-,I1,*,+,-0.84,1.0,-,0.559,0.446,+,-,I1,1.0,I1,*,I2,-,*,1.0,-1.0,N1 --> check
+anisotropy tensor:
+(5.0*I2 + N1 - 0.446)*V1 + (0.446*I1 - 2*N1 - 1.0)*V2 + (I2*(N1 + 1.0) + (I1 - 0.01808)*(2*I1 - 1.0))*V3
+
+Seed: 8
+Individual: 01073
+Loss: 1.25522e-06 (+ 4*(3e-7) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
++,*,0.738,*,I2,-,2.0,-,I1,0.746,-,*,N1,+,I1,1.0,N2 --> check
+-,*,1.0,-1.0,*,-,*,0.937,1.0,-1.0,*,N1,0.738 --> check
+*,*,-,*,N2,2.0,N1,+,+,*,N1,I1,+,N1,0.937,2.0,+,-,N2,0.0,+,I2,I2 --> check
+anisotropy tensor:
+(-0.738*I2*(I1 - 2.746) + N1*(I1 + 1.0) - N2)*V1 + (-1.429506*N1 - 1.0)*V2 + (-(2*I2 + N2)*(N1 - 2.0*N2)*(I1*N1 + N1 + 2.937))*V3
+
+Seed: 9
+Individual: 00937
+Loss: 1.76359e-06 (+ 3*(3e-7) regularization)
+Used Features: I1, N1, N3
+Expressions: 
+-,-,N3,+,1.0,*,1.0,*,I1,N1,-0.73 --> check
+*,*,-,-,I1,*,-0.97,0.0,N3,N1,-,N1,-0.73 --> check
+*,*,I1,-,+,-,-0.97,2.0,+,N3,-0.73,N3,N3 --> check
+anisotropy tensor:
+(-I1*N1 + N3 - 0.27)*V1 + (N1*(I1 - N3)*(N1 + 0.73))*V2 + (-3.7*I1*N3)*V3
+
+
+Feature Importance Order: N1=10, I1=8, N2=8, N3=6, I2=5 
+
+Average GEP Loss: 1.49174e-06
+Average Number of Inputs: 3.7
+Standard Deviation of Loss: 1.95451e-07
+Standard Deviation of Inputs: 0.4582575
+
+I1 -1.260675e-07  3.333803e-07
+I2  3.434200e-08  2.753412e-07
+N1           NaN           NaN
+N2 -2.235675e-07  2.103357e-07
+N3  1.303850e-07  2.497453e-07

@@ -1,0 +1,128 @@
+Seed: 0
+Individual: 00964
+Loss: 3.59375e-03 (+ 2*5e-04 regularization)
+Used Features: I1, N3
+Expressions: 
+-,+,N3,-1.0,+,I1,*,*,0.089,2.0,N3 --> check
+-,-,2.0,N3,+,N3,1.0 --> check
+*,-,-,*,N3,*,N3,2.0,-1.0,I1,N3 --> check
+anisotropy tensor:
+(-I1 + 0.822*N3 - 1.0)*V1 + (1.0 - 2*N3)*V2 + (N3*(-I1 + 2.0*N3**2 + 1.0))*V3
+Iterations: 2826/5000
+
+Seed: 1
+Individual: 00762
+Loss: 3.40565e-03 (+ 3*5e-04 regularization)
+Used Features: I1, I2, N2
+Expressions: 
++,*,-,*,+,N2,2.0,-0.39,2.0,I1,-,I2,I1 --> check
+*,-,+,-,*,1.0,I1,*,-0.39,1.0,I1,N2,2.0 --> check
++,+,-,I2,0.0,I2,I2 --> check
+anisotropy tensor:
+(-I1*(0.39*N2 + 2.78) - I1 + I2)*V1 + (4.0*I1 - 2.0*N2 + 0.78)*V2 + (3*I2)*V3
+Iterations: 5000/5000
+
+Seed: 2
+Individual: 00722
+Loss: 3.08595e-03 (+ 3*5e-04 regularization)
+Used Features: I2, N1, N2
+Expressions: 
+*,*,+,-,+,N1,2.0,*,-1.0,1.0,-,-0.94,0.099,-,+,*,-0.12,0.099,N1,*,N1,-0.94,I2 --> check
+-,-,-,N2,*,*,-0.12,N2,-,-1.0,N2,+,N2,-,*,N1,N2,-,0.0,-1.0,N2 --> check
+*,-,N1,N1,1.0
+anisotropy tensor:
+(I2*(N1 + 1.961)*(1.94*N1 - 0.01188))*V1 + (-N1*N2 - 0.12*N2*(N2 + 1.0) - N2 + 1.0)*V2 + (0)*V3
+Iterations: 5000/5000
+
+Seed: 3
+Individual: 00859
+Loss: 3.28728e-03 (+ 2*5e-04 regularization)
+Used Features: I2, N1
+Expressions: 
++,*,-,-,-1.0,-,N1,1.0,-0.41,-,I2,*,-,0.416,I2,*,-1.0,1.0,+,*,+,2.0,-1.0,0.0,0.0 --> check
+-,-,N1,N1,-,N1,*,-,I2,1.0,N1 --> check
+-,*,0.021,0.416,I2 --> check
+anisotropy tensor:
+(0.17056 - 0.416*N1)*V1 + (N1*(I2 - 2.0))*V2 + (0.008736 - I2)*V3
+Iterations: 2923/5000
+
+Seed: 4
+Individual: 01036
+Loss: 2.95865e-03 (+ 2*5e-04 regularization)
+Used Features: N1, N2
+Expressions: 
+*,*,N1,N2,*,*,-,0.0,N1,*,N1,0.934,0.429 --> check
+*,+,N1,-,-,-,0.429,N2,0.934,-1.0,N1 --> check
+-,+,0.945,0.094,N2 --> check
+anisotropy tensor:
+(-0.400686*N1**3*N2)*V1 + (N1*(N1 - N2 + 0.495))*V2 + (1.039 - N2)*V3
+Iterations: 5000/5000
+
+Seed: 5
+Individual: 01096
+Loss: 3.55675e-03 (+ 2*5e-04 regularization)
+Used Features: I1, N1
+Expressions: 
+*,-,-1.0,+,N1,+,+,0.741,0.837,+,0.837,1.0,I1 --> check
+*,+,*,+,-,1.0,1.0,+,2.0,1.0,*,-0.55,-0.58,2.0,*,I1,N1 --> check
+-,-,-0.55,+,I1,N1,+,-,-,-0.58,-0.55,*,I1,N1,-0.58 --> check
+anisotropy tensor:
+(-I1*(N1 + 4.415))*V1 + (2.957*I1*N1)*V2 + (I1*N1 - I1 - N1 + 0.06)*V3
+Iterations: 2863/5000
+
+Seed: 6
+Individual: 00831
+Loss: 3.60208e-03 (+ 2*5e-04 regularization)
+Used Features: I1, N2
+Expressions: 
++,+,I1,-0.33,I1 --> check
++,-,I1,*,+,+,0.642,2.0,*,N2,0.785,-,N2,0.642,I1 --> check
+-,*,-,-,-1.0,-,0.0,-0.33,+,I1,1.0,0.785,0.642 --> check
+anisotropy tensor:
+(2*I1 - 0.33)*V1 + (2*I1 - (0.785*N2 + 2.642)*(N2 - 0.642))*V2 + (-0.785*I1 - 2.47105)*V3
+Iterations: 5000/5000
+
+Seed: 7
+Individual: 00960
+Loss: 3.14983e-03 (+ 5e-04 regularization)
+Used Features: N2
+Expressions: 
+*,-,-1.0,0.0,-,-1.0,+,-,-0.84,N2,*,0.446,N2 --> check
+-,*,N2,-1.0,-,*,+,-0.12,-1.0,+,0.446,0.559,2.0 --> check
+*,-,-,0.446,-,+,1.0,1.0,N2,2.0,*,*,-,2.0,-0.12,N2,*,-1.0,2.0 --> check
+anisotropy tensor:
+(0.16 - 0.554*N2)*V1 + (3.1256 - N2)*V2 + (N2*(15.06896 - 4.24*N2))*V3
+Iterations: 5000/5000
+
+Seed: 8
+Individual: 00870
+Loss: 3.62433e-03 (+ 2*5e-04 regularization)
+Used Features: I2, N3
+Expressions: 
+-,+,N3,0.746,+,2.0,I2 --> check
+-,+,0.738,I2,+,N3,0.738 --> check
+*,*,2.0,2.0,+,-,-,I2,0.0,-,-1.0,2.0,-,0.738,0.061 --> check
+anisotropy tensor:
+(-I2 + N3 - 1.254)*V1 + (I2 - N3)*V2 + (4.0*I2 + 14.708)*V3
+Iterations: 5000/5000
+
+Seed: 9
+Individual: 00775
+Loss: 3.43255e-03 (+ 4*5e-04 regularization)
+Used Features: I1, I2, N1, N3
+Expressions: 
+-,+,I2,*,N1,I2,*,I1,+,-,N1,-1.0,N1 --> check
+-,*,-0.97,N1,N1 --> check
+-,*,N3,+,N3,1.0,N3 --> check
+anisotropy tensor:
+(-I1*(2*N1 + 1.0) + I2*N1 + I2)*V1 + (-1.97*N1)*V2 + (N3**2)*V3
+Iterations: 2807/5000
+
+
+
+Feature Importance Order: I2=5, N2=5, N3=3, I1=5, N1=5
+
+Average GEP Loss: 3.36968e-03
+Average Number of Inputs: 2.3
+Standard Deviation Loss: 2.26689e-04
+Standard Deviation of Inputs: 0.781

@@ -1,0 +1,124 @@
+Seed: 0
+Individual: 
+Loss: 1.55993e-06 (+ 4*(3e-8) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
++,+,+,*,I2,0.205,N2,I2,0.205 --> check
+-,+,*,I2,I2,I1,N1 --> check
++,-,+,*,*,1.0,N1,I2,I2,-,I2,*,*,0.097,N1,+,I2,I2,N1 --> check
+anisotropy tensor:
+(1.205*I2 + N2 + 0.205)*V1 + (I1 + I2**2 - N1)*V2 + (N1*(1.194*I2 + 1))*V3
+
+Seed: 1
+Individual: 01026
+Loss: 1.20775e-06 (+ 4*(3e-8) regularization)
+Used Features: I1, N1, N2, N3
+Expressions: 
+-,+,N1,*,N3,-,*,N2,0.440,-0.16,N2 --> check
+-,*,+,+,+,0.0,0.440,1.0,0.0,N2,I1 --> check
++,*,-,N3,*,N3,I1,-0.16,N3 --> check
+anisotropy tensor:
+(N1 - N2 + N3*(0.44*N2 + 0.16))*V1 + (-I1 + 1.44*N2)*V2 + (N3*(0.16*I1 + 0.84))*V3
+
+Seed: 2
+Individual: 00964
+Loss: 1.66573e-06 (+ 4*(3e-8) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
+*,-,N1,*,-1.0,I2,*,N2,N1 --> check
+-,-,I1,N1,2.0 --> check
+*,+,-,I2,+,+,N1,1.0,-,I2,0.099,N1,*,+,+,1.0,0.099,I2,N2 --> check
+anisotropy tensor:
+(N1*N2*(I2 + N1))*V1 + (I1 - N1 - 2.0)*V2 + (-0.901*N2*(I2 + 1.099))*V3
+
+Seed: 3
+Individual: 01127
+Loss: 1.40726e-06 (+ 5*(3e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
++,*,+,*,+,-1.0,I2,+,N2,0.021,N1,N1,*,*,+,0.416,-0.41,N1,-,0.416,2.0 --> check
++,-,*,+,-,2.0,0.0,-,1.0,I2,I1,*,+,*,1.0,1.0,N3,+,N1,N1,0.101 --> check
+-,+,+,N2,*,I1,N1,-,-,-,I1,1.0,*,-0.41,0.101,+,0.416,0.416,0.021 --> check
+anisotropy tensor:
+(N1*(N1 + (I2 - 1.0)*(N2 + 0.021) - 0.0095))*V1 + (-I1*(I2 - 3.0) - 2*N1*(N3 + 1.0) + 0.101)*V2 + (I1*N1 + I1 + N2 - 1.81159)*V3
+
+Seed: 4
+Individual: 00875
+Loss: 1.27333e-06 (+ 4*(3e-8) regularization)
+Used Features: I1, I2, N1, N2
+Expressions: 
++,-,N1,N2,-,I2,*,*,I1,N2,+,2.0,2.0 --> check
++,-,1.0,2.0,+,*,+,0.094,-1.0,I2,-,-1.0,0.934 --> check
+-,-,*,I1,I2,I1,N2 --> check
+anisotropy tensor:
+(-4.0*I1*N2 + I2 + N1 - N2)*V1 + (-0.906*I2 - 2.934)*V2 + (I1*I2 - I1 - N2)*V3
+
+Seed: 5
+Individual: 00860
+Loss: 1.62337e-06 (+ 5*(3e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
+*,+,-,N1,N2,0.0,N3 --> check
+*,-,N1,-,-0.58,I1,-,-,-,-0.58,2.0,N3,+,-0.58,-1.0 --> check
+-,*,+,N2,N2,-1.0,I2 --> check
+anisotropy tensor:
+(N3*(N1 - N2))*V1 + (-(N3 + 1.0)*(I1 + N1 + 0.58))*V2 + (-I2 - 2.0*N2)*V3
+
+Seed: 6
+Individual: 00894
+Loss: 1.22113e-06 (+ 5*(3e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
+-,-,*,N1,+,N1,+,-0.33,I2,N3,-,+,*,I1,N1,*,I2,-1.0,*,N1,N1 --> check
++,*,*,N2,I2,N2,-,*,-,N1,N1,+,2.0,-0.33,N3 --> check
+-,*,1.0,I2,*,N2,-,*,-0.33,N2,+,-0.33,2.0 --> check
+anisotropy tensor:
+(-I1*N1 + I2 + N1**2 + N1*(I2 + N1 - 0.33) - N3)*V1 + (I2*N2**2 - N3)*V2 + (I2 + N2*(0.33*N2 + 1.67))*V3
+
+Seed: 7
+Individual: 00726
+Loss: 1.68226e-06 (+ 4*(3e-8) regularization)
+Used Features: I1, I2, N1, N3
+Expressions: 
+*,+,N3,+,*,-,N1,-1.0,I2,0.0,N1 --> check
+-,*,I2,-0.12,I2 --> check
+*,+,-0.84,I2,*,I1,N1 --> check
+anisotropy tensor:
+(N1*(I2*(N1 + 1.0) + N3))*V1 + (-1.12*I2)*V2 + (I1*N1*(I2 - 0.84))*V3
+
+Seed: 8
+Individual: 00841
+Loss: 1.39618e-06 (+ 5*(3e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
++,*,+,N3,*,*,N1,0.738,+,0.746,0.746,*,I2,+,N1,-,N2,-1.0,-,*,N1,+,I1,N3,N2 --> check
+*,*,1.0,-1.0,N1 --> check
++,*,2.0,-,N1,I1,N3 --> check
+anisotropy tensor:
+(I2*(1.101096*N1 + N3)*(N1 + N2 + 1.0) + N1*(I1 + N3) - N2)*V1 + (-N1)*V2 + (-2.0*I1 + 2.0*N1 + N3)*V3
+
+Seed: 9
+Individual: 01030
+Loss: 1.26188e-06 (+ 5*(3e-8) regularization)
+Used Features: I1, I2, N1, N2, N3
+Expressions: 
+-,*,+,-,I2,*,-0.00,1.0,*,-0.00,-1.0,+,-,I2,-,0.0,2.0,I1,-,-,N2,+,-0.97,N1,1.0 --> check
++,-,+,-,-,N3,2.0,-,N1,I1,0.0,N3,+,N2,0.0 --> check
+*,-,*,N2,N2,1.0,N2 --> check
+anisotropy tensor:
+(I2*(I1 + I2 + 2.0) + N1 - N2 + 0.03)*V1 + (I1 - N1 + N2 - 2.0)*V2 + (N2*(N2**2 - 1.0))*V3
+
+
+
+Feature Importance Order: I1=10, N1=10, N2=9, I2=9, N3=7
+
+Average GEP Loss: 1.429882e-06
+Average Number of Inputs: 4.5
+Standard Deviation of Loss: 1.79156e-07
+Standard Deviation of Inputs: 0.5
+
+I1           NaN           NaN
+I2  2.468133e-07  1.719640e-07
+N1           NaN           NaN
+N2 -2.804200e-07  1.667326e-07
+N3 -9.968762e-08  2.420203e-07
